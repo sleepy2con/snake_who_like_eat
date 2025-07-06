@@ -18,6 +18,7 @@ SOURCES += \
     unit.cpp
 
 HEADERS += \
+    constant.h \
     food.h \
     gamecontrol.h \
     gamewindow.h \

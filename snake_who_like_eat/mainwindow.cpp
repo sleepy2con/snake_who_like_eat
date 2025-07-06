@@ -9,7 +9,9 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow),m_GameWindow(new GameWindow(this))
 {
     ui->setupUi(this);
-    m_GameWindow->hide();
+    //m_GameWindow->hide();
+    m_GameWindow->show();
+
 }
 
 MainWindow::~MainWindow()
@@ -18,6 +20,6 @@ MainWindow::~MainWindow()
 }
 
 void MainWindow::on_btn_startgame_clicked() {
-    QMessageBox::information(0, tr("警告"), tr("hhaa。"));
+    //QMessageBox::information(0, tr("警告"), tr("hhaa。"));
     m_GameWindow->show();
 }

@@ -1,18 +1,14 @@
 <FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" FontFamily="Segoe UI" FontSize="12">
   <FlowDocument.Tag><![CDATA[{
-  "timestamp": "2025-07-03 22:16:43",
+  "timestamp": "2025-07-05 00:56:31",
   "files": {
-    "F:\\DifferenctWorkSpace\\QtProjects\\snake_who_like_eat\\snake_who_like_eat\\snake_who_like_eat.vcxproj": {
-      "before": "7V17c+I4Er+/r+q+gys1u5XcFhgSQjKBsEWA5KglJBPIZHeLKsrYAnzjB2vLedztffdrWZItY5mQBMjMLDu1Y2O1Xq1WP35qe34b/+1v1Z8fbUu5R55vus7pTjFf2FGQo7uG6UxOdwI8zh3v/Fz7x9+r1577b6RjpYnGWmDhvuZNEPZPd84C0zJ2FGjFgV9TjGcnqurrU2Rrft42dc/13THO666tGugeWe4Meartj0g1db9QONiB1hWl2sbIvvDcYKZ0tBGyTndYhw3XGZuTwNMwDNCnxEAuK1Xajm4FBjrduUEW0nz052O5xGtAnURTNUZTVZOPyWDIf9VrS8Nj17Nr0EhVjX7RcnhA+SGr/MzgmmgUTBYOLaRY+cCqasRjynKYAiwGfkqw/cJyR5qVYvRFYBq1/xYPGx8LxfpR7qxQKOcOjspnueOjw2Lu7GP5sFEo14+a5bP/RbwJ6zB+3bgu7mo28meajmq+o31Bw4epO7RMuEEarqpJClbtF/T04HpG7RMufe7dg3RWVf6IUdyZjuE++FQe+Sp9pvJcKxbyhfx+uViAa1VdSLqouUvTeUGLAjVpNGRHzGcm7fbM9bDChOh058Pu5wbbUtcanu4NLqOd05jN8mzT5WewYv6OosrWDyTRMMkmOd35UZu5fuXDbkI49/78sMv5s0cpTk/pVdgu9MEO34SJFvhWirZG33UtH+HafbF0EG8R/pRx9CrAswA3TQ+0h+s91Ty6NwdVdb6EVaj3O8BC0zb/g/zGTeD0TRt1zJGneU+3vjZBtTHIJ6qqz9Kx9hpTzdN0jLweDLXrYrjA3hIfckJR1fSfZqhWn80sUw9Vz9x2DItZvbYDjdvIMDWMZPOUl7PK155pw8woL6QbI0lBqklFKrmb3yANkX5avywYRBV+95LAZ7kZOWi/TLUkVQqtnDAIrUeMHOIdwL7B4BXE+kckfoO8ZWsfLtK9KQJfI1I/6Rne+sgj9gN237zqFJRePgAyrkOFAaNH08f+LhX3D7svboxW3Iv0siowRlT3lK1Cx7xHeBT7OAv0dNbO/G74xCeSEECyHpcacSQjDifoQhaDUgQVCuuvvIG/aUlMWitonncGe3mdndHmeWfUMyDu04pnJ/PD4s549+2J43qICjUzxCseB/YCMOiSfvgQOqbzBbx7D9nIwZq14u6ZQzHXCe/77XI1v29r3CLQpnlHb5epzI7WIU+pzt5FmlKjWCxLUteJxEXgYoPTSfznN6tpiRrhHqbVcO2ZaSG25KC16gb12jWLRa+gVkJP2UR+LV9pnAw+4UE5/zFfHNj+vb5f2N8flksDk4a6z5VD5TvTIJH6EpQQry1B1QBdUGFOfCVfUZ8bif3FnyHdHzyYzsF+jsyh8sPuolnvgWu/iCmUlwnWXc1CdKCW+10/8e41K0ANzccK+Wk6lumg8NbHnqnjHvwNXkz4BE89F8Y16aIHJQcxmm36vnmPcmHhcKjPrMAn/4e/EThCngPmxcfoceYpuRAdUXIPByUIMOn1+CNcS6XSYZldj9j1WBEnzcabmCmfQzw930f2yEJeB9wTGGTHpZGIYJPqWSRRI2cwQR+1HYJkhHEMj57SBVGdcEsJVc7DuhA6OaCkMwrjyqavwaB7sObm2NTvNM8h7K6VDo+OKqVS+QhWvymnAXZklMTbpfWoo3Cx/6U5BqzspNZ7cvSqmn4ejaijOZMA4sYehioagAk+NvTZrHhUVVNFUaWrEUG7zmGrErMrsHyuIK4Ao4KQlfL4UnsEBiADYlzxcUR87aGZ5+rI910vVjx+bXjX7jav7nqV2267cdVsVYb8BgoO9ivDVrd+1mkNW7/2W91mqzmsd9oXXbj2+lc39YtWBcjKpQoUnd1eVD71h92rYXR/125etPq9Yad9Rooubtv8tnF10wrvf9jNGBksTUZJvDQxQd8ljOOSlnousMGdeJrd1LB2BnBdxO1QSUtLoqqACwC/OS5QuwRI0uxPPaQZyGh2OgAnJQmiir1gNvOA8SANHg5mZ5rjIK9GjYa8LKrah+bxHUEOhrjuE+ATt50QCKDVs8ujJsCXPQ8si2A8PudP4llEyTZOh2CmtfBvgFgSDykp4BJzRqVK/Jh4WWJd2kQz5BiA7hLTkmVYLHMERqPMrEYefmbaBEYKZmMZMmI3lqFrOdh7unZNB4fU/hRZ1sF+eC+qUHEyCT0qFsi4wDxY0cx+2P3Ub7Zv9gZktmInadpEV+liWYdcsf/4R+DiinpZ77bPW71+s3VN9nC38dsJBqyJQXGhlaRxoeKA5mGPYziQgZh5cCRs18mBOcIeoHCsCgfy6c8yoJ/wh5XNghGAWQCf9t0vyGENlw8/Ho7KpWKppOvjojFmtBbTmYzqn7wJrrTqnj41MWjIwONDZDR0li+3dkQJtB6RHhBLDirjHhx9uGM7M6s02i4th1idxtVls94/dy1yfMGqykqiahcIdj+B7QgQJZg8vjczy6MWZEHLYhc0PF2YjzUWhiAkuKV2BN2gMfJgC8MOpr1ICqKxUVAx1MUfdmmssTdIe+l59AiGXSCOGrgBi+kSINYg+hk0CdGcrGN5WVS1F4x6T+Ap2TUmsVU1fiRQvU4bg+mOlVz10jSseOcxsJzo6VA53wJ6NXGIMZ4viYZBZaTlea7XmCL9i8+cnfTzqEpCFZPDBeroUH1NqaqqMLDqDfLdwNNRKgKI7eP34gyA9ZVMlp4/xe5OGGeFyxYe/s0VvCXET8WEbD3mLWUihviWwi+DqKtt8HVMg66NBl8h6+HIYqOhF+Cd3B0egSL+q0ZhnPdLxWAslHyvGAwirK8v4JoLipJRE9Ep29BpZaGTsUywQ1IklqEjwdNShHH0RMm34RNJhdiGT/LgKvJmM+McGmRkFkcNvDIMEoKObYTyV41QljOVDMh8PUT5qqgkDlIgWIjihzjTcAIYDWA2kIKWB0yZH1DLaW3NdJajWrbFAE6sxBZTKX7JjD8yrMDHrh0mbUonMeVZFnOxEaRw+W8JySRnYgLrpvxAaWC7+hDwWQON/fw0E3kcmQ6hJMBFAq9rO2ScCYyOPorRAYKbAaqx4rlkoanCQBUl12RoPtxxYB9uQ2ifPHoG3Kek5RJcKcAPNwLET38JPid9wGB++oMD/Uoup9ODSC83trR71zslB3PwmJ3mKecncBYzplgTvnO9Lz2SuKl+whCKkJMRX03jSLJH7KBQTayrkms3TqAtNTzXhGzg6FxTZaeFKuwAdloIxCsazIJu+bSzB8YoYNQMGn++NaAF/24pOuLfASEFT0GYWMCnEOzOj5NBlc+mH0D6Qw8HhukOyGHwgAg00QNPg8+NQZh7ObjswW2xlC+V8geH+4UjflrMsNn19UNSMs8bq++uHjyalglpkoPPvSVbV3Yfj8t7AwY+Kr+Y2B8UC7wy3MaZwYNA9/AzvMloTt7eILBX2pwPUCYyVtok7K8VzxnM32sb7bb657/2mr8MSvnjiKPP8nBT2yJj6RleuCpJkjf3SjmSNpaQItH4KjlXYXo6tL9CGSwqSXwOTWZsQy/hFAAO1FdsQy+vGorQ9RTgc9pP3DENF1btiGTPHZwL1iX4FOwuHk18skqdjLfwIwVZi5yoUOArYUO/Ut8oNY8Ne0bJWOKrcIHCxds6QDJvL3aqtg7QQr9u6wBtHSCi8d8lLvhLOECxiRUs79rcn5SZ3Izzk+o2a9YLHB/wB2MMiTlDcliJ4F0QEhBsbIOwktjrFlbawkokXX4LK0Hm4XuZj7fH6VtYibzAPtjCSpVMjFTmo2xhpcJAigQ9C63JuAngqbSxBKwkGt95WEkoW5tfJTlmIp6V0PX7wErCAGDuC7yrFR+7pRw+YSDTLay0+G0aQI/C92koivS1nayFrvsWVtrCSm/w67aw0hZWere44CVOxutPaKU+y+YcoBhgESzv2tyflLnfjPOT6jZr1gscHzmsxF+Kj3OVwpSnKU+0WiLhib8dGTcRjy4J9QmpT/A6MfmSnHHu8WSp1X5WhKZVpnrhcFr6nU5J6ln2seW6JpJa51VMI16N5A5Z1yQkIcIqpiGuxmYmsoLViIFc2e6I8vDy+ggLy0GSksI365quHpAPslTV6FGUEJyS7becjr94zdYdRmWdavOPXYzhTXF4NdYfGPBa68AIbPuJ5GmC/ptPGlh3smJKSnRLyZ090mSi6MVnkqf4hw0fZSQplTzRyHEtd+KG37540MO33pXceS/8vbmPbPwOCXSXTUPJwVcbTvSffirCFzXYhzfuDpZ+/yv3YJAPUAC9Qb5BoeRayiuXUNn/cYIr3duOQq6x8oo2y3ryZVLLyFPylURWyHpyZlKdS6b9YtMu0z2iEo0Y+hrtM7/LVqx8Xik777D9JZrzG1MAV/tEAXyl+18qsOvRAJKV3KQOkHQvnfwCPQBGeaVeQUotPevHxTqHe9oNSYRhDoW4IAo1YPRyYsHbi4iXiEviscS+l9BvYL7U41qzzkuMbWH2YWB+I29msIGKWackX99VgqQIbGxD37YTKbCBuR57LtnLczNevItXKWmpTfwtyFlq0FkOAfGr31fKUkPdkIyl+l1ewuRQkExfCqr3q9OXibF9X/oyMTWmL4VncMS6oVcGiCwLHW9WXwodT99RXwrDWPD9TkERvUMUklIGy+jLxMQ2JmWpoW5IxlL9gr4UOLBIwtL6Mu1+vuyj8PBtRPLN2AhlFz5ozv9liOiz8PR70Yw2/HIjeT+09n8=",
-      "after": "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"
+    "D:\\Work_Space_\\Qt_projects\\snake_who_like_eat\\snake_who_like_eat\\snake_who_like_eat.vcxproj": {
+      "before": "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",
+      "after": "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"
     },
-    "F:\\DifferenctWorkSpace\\QtProjects\\snake_who_like_eat\\snake_who_like_eat\\snake_who_like_eat.vcxproj.filters": {
-      "before": "5VdNb5tAEM25UvsbEJee1nwbKNiR14Y0t0hVb5UqDOOwEbCUhcRS1P/etR1YEiyF5ktKa5kDI5g3772dHfbzp5MT/3SbZ9I1VIzQYiZrE1WWoIhpQorLmdzUG+TIp/OPH/yLil5BXEv88YLN5LSuyy+KwuIU8ohNchJXlNFNPYlpriRwDRktoVJytm5Ilii6qhoyTyNJ/nkN+VlFm3J/ywMhyWqopPMizpoEZnJIq1ziQWCHNyT+878X5FcD5wkUNdkQqOa3rmuYrqO6yLLwAplrN0E4tF3khCuMVd2ZBtj47SuDF3dF7FMG2xqKHW02b4iv9G67Ry6iisG+lPkmyhj4Si9yeMpXDvX/H2zOoIAqqiEZYZCtBSuH/9FiiV1kLgMXYRxoKFBVbKiaaQaaNtaguCy92Iu3Wy+nsZd6CWw8mmQe4VcFzDti32PG/ENUvkKU8A4a0TOG61qGoyLHxSveM6qJHCfAaKpbIQ4sPcAhHmtJ6qXclJRbkuYeKbgXRextWfIEK957/d9oU8UwQn8zXNqGHWpoaS8sZBr2FC3U6RTpC0Nf2Za+0MNwrP6iJfrNkJZX3jqqvYjlu2v7BDfeMRtfuT9dhsNmmS1pXvLhIubNZZTDDSkSejPhmvZmzt3G3tfj4aaidPna/b8LCIA8IsUrpn7V2puC8Jn+TFlG2NKwmuZ4960gdOsZkw5t6W8aQ1tEvs4YERIQO2vu9HsJiOzuI0YA7PX769Rtnn3tI9QbLuoE1s3lDz4sf/ZUPOrjgzk4lLJN3gnZBgTLCjKIGLwZnmDXM/BN2L083rFlKfiVFfDtnU3SSbyuh03wqHkie2efCB038BUg2/UsABvSX5hHGuRRZm3OjlcbuAfS8+vZICMa8Zi2vQZsyNBCcdwZtp5I17EUIcGzR/KZCPcp8uPO4dQ3/wM=",
-      "after": "5VZdb5swFN3zpv0HxLvDZwIMkiom0PVhUqupb5MmAjfFFcYUmzbStP8+hzSBhkrJWvWhG4IHX5nje8/x/bj79OFDcLamhXIPNSesnKrGSFcVKFOWkfJmqjZihVz1bPb5Y3BZs1tIhSK3l3yq5kJUXzSNpznQhI8oSWvG2UqMUka1DO6hYBXUGuXLhhSZZuq6pUoYRQkuBNDzmjVVu5SGmBQCauWiTIsmg6kas5oq0gh8+4cin+C6JHcNXGRQCrIiUM9+eZ5le67uofEYz5G99DKEY8dDbrzAWDfdSYSt34E2+HHjRAsZrQWUm7D5rCGB1lvut1wmNYfWldkqKTgEWs+y3RVoW///j2jOoYQ6EZCdIJBjRAtXvmgeYg/ZYeQhjCMDRbqOLd2w7cgwThUorSo/9dP12qcs9XM/g5XPssIn8quB+8/Id0yYfyiUr5BkMoNOyBnL88aWqyPXwwuZM7qNXDfCaGKOYxyNzQjH+FRJcj+XouRSkpz6pJRalKm/5tkLpHjv/n9nTZ3CCfzbcehYTmyg0JmPkW05EzTXJxNkzi1z4YzNuRnHp/LfpUQ/GfLq1l8mwk843XzrF6jxjqMJtKfdZdhswiJktJLNpes3NwmFB1Jm7GEkOe31nMfC3ufjsKhoe7xd/d8bugNoQso3hH5T35uSyJ7+SlqOy3IlvrG0Y6wnST4UpF8uBoK0SDsxDmA3Qjyy9SrYsHgcVjqPW57+FnSP0/p7nKWw4YJRvJmoupMzWDY3P2Rb/FnVIEsBH+WjdCmGtB00vAFzPfQdfz1Td2ANBSQc3uLI4xRciWvy/EVpyDDkbpQcRNsC7eI8QO3dkxejPg1FDo7b+Xn2Bw=="
-    },
-    "F:\\DifferenctWorkSpace\\QtProjects\\snake_who_like_eat\\snake_who_like_eat\\snake_who_like_eat.vcxproj.user": {
-      "before": "tZE9a8MwEIbTtdD/IETAyVDL/aCUYiVDCl06JG3obstnW0XWGekUUsgf7r+o7OItYzvee8f7PHDfF7NZvj52hh3AeY1W8ps04wyswkrbRvJA9fUjX6+uLvOtw09QxPaIxn9M95vgHFjiLLZYL3lL1D8J4VULXeHTTiuHHmtKFXaiggMY7MGJzpdBm0rcZtkdj+2MDf1xQ18vDkPPxLnwtSjBSL6jdyCKfp6zDdpK06iezBdxqnUTXDEky9N8sTUF1ei6ZSJl8gxlaE7Hh/vkFxmhO9pjUO3EHqExFufyXExno+I/CL6BgcLDXyqO0sPfVj8=",
-      "after": "tZHNSsNAFIXrVvAdhqGQdmEm/iAimXRRwY2LVov7ZHKTjMzkhpk7pUJf1XdxEulGXOrynns454PzeTab5auDNWwPzmvsJb9KM86gV1jrvpU8UHN5z1fFxXm+cfgOitgO0fi3k38dnIOeOIspvZe8IxoehPCqA1v61Grl0GNDqUIratiDwQGcsL4K2tTiOstueExnbMyPH/p4chgGJn4Tn8sKjORbegWiyOc5W2Nfa5rQk/kiXo1ugytHZXmcLzampAadXSZSJo9QhfZ4uLtNvitj6ZZ2GFR36i5y8VOZ2MTJMMH9A9oLGCg9/A1cPuKOWxVf"
+    "D:\\Work_Space_\\Qt_projects\\snake_who_like_eat\\snake_who_like_eat\\snake_who_like_eat.vcxproj.filters": {
+      "before": "5Vhdb5swFO3zpEn7CSjvDgRIAoOkCgl0fatU7W1SReCmuAOb2dBGmvbf53xhWpBKm6ZStyg8cGXOvcfnXNtw/eXszD1fZ6lyD4xjSia9QV/rKUAiGmNyO+mVxQpZvfPp50/uFaN3EBWKGE74pJcURf5VVXmUQBbyfoYjRjldFf2IZmoM95DSHJia8WWJ01jVNc3oCRhFcS8LyC4YLfPtrQgEOC2AKZckSssYJr2AskwRQeC7JxTxc78T/KuEyxhIgVcY2PS3bRumbWk2Gg69GTKXdoy8YGwjK1h4nqZbI98z/rhq48FNEVtIf10A2dDm0xK7au22GnIVMg7bUqarMOXgqrXIbpSr7ur/P9hcAAEWFhB3EGg88BeW+KPZ3LOROfdt5Hn+APma5hnawDT9waCrQFGeO5ETrddORiMncWJYOTROHSwuBtxpke85Yf4hKt8gjEUHdegZw7aHhqUhy/YWomc0E1mW76GRPgw8f6j7XuB1lSRxEiFKIiRJMgcToQWJnDWPXyHFR6//mpYsgg7zbwbzsTEOBmg+ng2RaYxHaKaNRkifGfpiPNRnehB0nX/ZEvVmSPI7ZxkWTsizzbV+hRofmI2rPt5dmpvNPJ3TLBebi9xvVpTGfTGbtd1mv6TXZ+LpcqJWSIeVvwpI6Nswg4iSgtH0hBkeMInpw4kSZCEmJ4Q+ae2chD/hRMWXBIvDzpGu6eLX/blImmrr16Tp1voq2uLWPY50awO47tbj8Ute0MzbnP5k6ZsMe8VfnEDiVRRkSKbY+PUNU6SNWdqZ6sXlH4Cq4g8BWfrWUscBdzFUYwGMYVne/hAHq5uaPq3WfnJmanHZHlyybGRjkELI4d3ySXY1a7wLu7fP12Z4yS9nII4CvJ/0o2XRXB+eFU+iV/LJkLRpXcATpGzpC1w3ZkuDPMvsgFnxOgQkqxLf1PQ6OkmHRmyb21oDlrgpoXw1braehKtYypDkWSN5ZIbHFMWr8e4LwfQv",
+      "after": "5Vddb5swFO3zpP4HlHcHAiSBQVKFBLo8TGo19W3SRMxNcQc2s00badpP2X+d8wkNlUrb5aFbFB64Mud+nHN97d/nZ2f+xSrPtHvggjA66vS6RkcDillC6O2oU8olcjoX4/MP/hVnd4ClppZTMeqkUhYfdV3gFPJYdHOCORNsKbuY5XoC95CxAriei0VJskQ3DcPqKBhN8+cS8kvOymLzqgwRySRwbU5xViYw6kSM55oygth+oamff0PJjxLmCVBJlgT4+KfrWrbrGC7q94MJshdugoJo6CInmgWBYTqDMLB++Xrjw3UQG8hwJYGu0xbjkvh67fWw5CrmAjahjJdxJsDXa5btKl/fxv9/ZHMJFHgsIWlB0LAXzhz1R5Np4CJ7GrooCMIeCg0jsIyebYe9XluCcFF42MOrlZcz7KVeAkuPJZlH1MNBeE/Q9xwx/1AqnyBOVAe16BnLdfuWYyDHDWaqZwwbOU4YoIHZj4Kwb4ZBFLSlJPVSRUqqKElzj1DFBcXeSiSvoOK9x/+FlRxDi/rb0XRoDaMemg4nfWRbwwGaGIMBMieWORv2zYkZRW3rX7VEvRnS4s5bxNKLRb5+Vq9g4x1n4+uPp0tz2EyzKcsLNVyqebNkLOmqatamzW5Lr1fieDvRD0j7nf9gqKBv4xwwo5Kz7IQeHghN2MOJHOQxoSeEPmnsgsbf4UTBl5Sow84bVdNGr7tzUSWqjV7Tplrru+gTat3hVGptANfV+mb8a/mZ4SroNfaO65dCb5D2YR/BrtX5N2CnWaMaW/G8NNgD0D7gg6GqxUY6bwNuIZxSSJYH69N35TmBRXn7VR2hvhUc1NgQ3bSLF7KppaPDUVNOFfoh0cpUOeSQQSzgFC6fL8G1vCFPS7AkzZSra0cj2w3QPs8j1JoCX436OBV1ydjetcZ/AA=="
     }
   }
 }]]></FlowDocument.Tag>
@@ -25,7 +21,7 @@
       <Span TextDecorations="Underline">Project Format Conversion</Span>
     </Paragraph>
     <Paragraph Margin="12,8" FontSize="18">
-      <Span>Report generated on 2025-07-03 22:16:43</Span>
+      <Span>Report generated on 2025-07-05 00:56:31</Span>
     </Paragraph>
   </Section>
   <Section>
@@ -33,49 +29,33 @@
       <Span>Files</Span>
     </Paragraph>
     <Paragraph Margin="24,12,0,0">
-      <Span FontFamily="Consolas" FontSize="14" Background="WhiteSmoke"><![CDATA[F:\DifferenctWorkSpace\QtProjects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj]]></Span>
+      <Span FontFamily="Consolas" FontSize="14" Background="WhiteSmoke"><![CDATA[D:\Work_Space_\Qt_projects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj]]></Span>
       <LineBreak />
-      <Hyperlink NavigateUri="file://F:\DifferenctWorkSpace\QtProjects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj?before">[Before]</Hyperlink>
-      <Hyperlink NavigateUri="file://F:\DifferenctWorkSpace\QtProjects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj?after">[After]</Hyperlink>
-      <Hyperlink NavigateUri="file://F:\DifferenctWorkSpace\QtProjects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj?diff&amp;before&amp;after">
+      <Hyperlink NavigateUri="file://D:\Work_Space_\Qt_projects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj?before">[Before]</Hyperlink>
+      <Hyperlink NavigateUri="file://D:\Work_Space_\Qt_projects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj?after">[After]</Hyperlink>
+      <Hyperlink NavigateUri="file://D:\Work_Space_\Qt_projects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj?diff&amp;before&amp;after">
                         [Diff before/after]
                     </Hyperlink>
-      <Hyperlink NavigateUri="file://F:\DifferenctWorkSpace\QtProjects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj?diff&amp;before&amp;current">
+      <Hyperlink NavigateUri="file://D:\Work_Space_\Qt_projects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj?diff&amp;before&amp;current">
                         [Diff before/current]
                     </Hyperlink>
-      <Hyperlink NavigateUri="file://F:\DifferenctWorkSpace\QtProjects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj?diff&amp;after&amp;current">
+      <Hyperlink NavigateUri="file://D:\Work_Space_\Qt_projects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj?diff&amp;after&amp;current">
                         [Diff after/current]
                     </Hyperlink>
       <LineBreak />
     </Paragraph>
     <Paragraph Margin="24,12,0,0">
-      <Span FontFamily="Consolas" FontSize="14" Background="WhiteSmoke"><![CDATA[F:\DifferenctWorkSpace\QtProjects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj.filters]]></Span>
+      <Span FontFamily="Consolas" FontSize="14" Background="WhiteSmoke"><![CDATA[D:\Work_Space_\Qt_projects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj.filters]]></Span>
       <LineBreak />
-      <Hyperlink NavigateUri="file://F:\DifferenctWorkSpace\QtProjects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj.filters?before">[Before]</Hyperlink>
-      <Hyperlink NavigateUri="file://F:\DifferenctWorkSpace\QtProjects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj.filters?after">[After]</Hyperlink>
-      <Hyperlink NavigateUri="file://F:\DifferenctWorkSpace\QtProjects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj.filters?diff&amp;before&amp;after">
+      <Hyperlink NavigateUri="file://D:\Work_Space_\Qt_projects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj.filters?before">[Before]</Hyperlink>
+      <Hyperlink NavigateUri="file://D:\Work_Space_\Qt_projects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj.filters?after">[After]</Hyperlink>
+      <Hyperlink NavigateUri="file://D:\Work_Space_\Qt_projects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj.filters?diff&amp;before&amp;after">
                         [Diff before/after]
                     </Hyperlink>
-      <Hyperlink NavigateUri="file://F:\DifferenctWorkSpace\QtProjects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj.filters?diff&amp;before&amp;current">
+      <Hyperlink NavigateUri="file://D:\Work_Space_\Qt_projects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj.filters?diff&amp;before&amp;current">
                         [Diff before/current]
                     </Hyperlink>
-      <Hyperlink NavigateUri="file://F:\DifferenctWorkSpace\QtProjects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj.filters?diff&amp;after&amp;current">
-                        [Diff after/current]
-                    </Hyperlink>
-      <LineBreak />
-    </Paragraph>
-    <Paragraph Margin="24,12,0,0">
-      <Span FontFamily="Consolas" FontSize="14" Background="WhiteSmoke"><![CDATA[F:\DifferenctWorkSpace\QtProjects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj.user]]></Span>
-      <LineBreak />
-      <Hyperlink NavigateUri="file://F:\DifferenctWorkSpace\QtProjects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj.user?before">[Before]</Hyperlink>
-      <Hyperlink NavigateUri="file://F:\DifferenctWorkSpace\QtProjects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj.user?after">[After]</Hyperlink>
-      <Hyperlink NavigateUri="file://F:\DifferenctWorkSpace\QtProjects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj.user?diff&amp;before&amp;after">
-                        [Diff before/after]
-                    </Hyperlink>
-      <Hyperlink NavigateUri="file://F:\DifferenctWorkSpace\QtProjects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj.user?diff&amp;before&amp;current">
-                        [Diff before/current]
-                    </Hyperlink>
-      <Hyperlink NavigateUri="file://F:\DifferenctWorkSpace\QtProjects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj.user?diff&amp;after&amp;current">
+      <Hyperlink NavigateUri="file://D:\Work_Space_\Qt_projects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj.filters?diff&amp;after&amp;current">
                         [Diff after/current]
                     </Hyperlink>
       <LineBreak />
@@ -97,7 +77,7 @@
         <TableRow Background="Orange">
           <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
             <Paragraph Margin="10,5" FontWeight="Bold">
-              <Span><![CDATA[F:\DifferenctWorkSpace\QtProjects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj]]></Span>
+              <Span><![CDATA[D:\Work_Space_\Qt_projects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -107,7 +87,7 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <AdditionalIncludeDirectories>.;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\6.9.1\msvc2022_64\include]]></Span><Span><![CDATA[;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\6.9.1\msvc2022_64\include\QtWidgets]]></Span><Span><![CDATA[;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\6.9.1\msvc2022_64\include\QtGui]]></Span><Span><![CDATA[;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\6.9.1\msvc2022_64\include\QtCore]]></Span><Span><![CDATA[;release;.;/include;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\6.9.1\msvc2022_64\mkspecs\win32-msvc]]></Span><Span><![CDATA[;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>]]></Span>
+              <Span><![CDATA[      <AdditionalIncludeDirectories>.;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\6.10.0\msvc2022_64\include]]></Span><Span><![CDATA[;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\6.10.0\msvc2022_64\include\QtWidgets]]></Span><Span><![CDATA[;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\6.10.0\msvc2022_64\include\QtGui]]></Span><Span><![CDATA[;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\6.10.0\msvc2022_64\include\QtCore]]></Span><Span><![CDATA[;release;.;/include;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\6.10.0\msvc2022_64\mkspecs\win32-msvc]]></Span><Span><![CDATA[;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
@@ -122,7 +102,7 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      ]]></Span><Span Background="LightCoral"><![CDATA[<AdditionalDependencies>C:\Qt\6.9.1\msvc2022_64\lib\Qt6Widgets]]></Span><Span><![CDATA[.lib;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\6.9.1\msvc2022_64\lib\Qt6Gui]]></Span><Span><![CDATA[.lib;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\6.9.1\msvc2022_64\lib\Qt6Core]]></Span><Span><![CDATA[.lib;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\6.9.1\msvc2022_64\lib\Qt6EntryPoint]]></Span><Span><![CDATA[.lib;shell32.lib;%(AdditionalDependencies)</AdditionalDependencies>]]></Span>
+              <Span><![CDATA[      ]]></Span><Span Background="LightCoral"><![CDATA[<AdditionalDependencies>C:\Qt\6.10.0\msvc2022_64\lib\Qt6Widgets]]></Span><Span><![CDATA[.lib;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\6.10.0\msvc2022_64\lib\Qt6Gui]]></Span><Span><![CDATA[.lib;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\6.10.0\msvc2022_64\lib\Qt6Core]]></Span><Span><![CDATA[.lib;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\6.10.0\msvc2022_64\lib\Qt6EntryPoint]]></Span><Span><![CDATA[.lib;shell32.lib;%(AdditionalDependencies)</AdditionalDependencies>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
@@ -137,7 +117,7 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <AdditionalIncludeDirectories>.;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\6.9.1\msvc2022_64\include]]></Span><Span><![CDATA[;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\6.9.1\msvc2022_64\include\QtWidgets]]></Span><Span><![CDATA[;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\6.9.1\msvc2022_64\include\QtGui]]></Span><Span><![CDATA[;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\6.9.1\msvc2022_64\include\QtCore]]></Span><Span><![CDATA[;debug;.;/include;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\6.9.1\msvc2022_64\mkspecs\win32-msvc]]></Span><Span><![CDATA[;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>]]></Span>
+              <Span><![CDATA[      <AdditionalIncludeDirectories>.;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\6.10.0\msvc2022_64\include]]></Span><Span><![CDATA[;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\6.10.0\msvc2022_64\include\QtWidgets]]></Span><Span><![CDATA[;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\6.10.0\msvc2022_64\include\QtGui]]></Span><Span><![CDATA[;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\6.10.0\msvc2022_64\include\QtCore]]></Span><Span><![CDATA[;debug;.;/include;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\6.10.0\msvc2022_64\mkspecs\win32-msvc]]></Span><Span><![CDATA[;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
@@ -152,7 +132,7 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      ]]></Span><Span Background="LightCoral"><![CDATA[<AdditionalDependencies>C:\Qt\6.9.1\msvc2022_64\lib\Qt6Widgetsd]]></Span><Span><![CDATA[.lib;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\6.9.1\msvc2022_64\lib\Qt6Guid]]></Span><Span><![CDATA[.lib;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\6.9.1\msvc2022_64\lib\Qt6Cored]]></Span><Span><![CDATA[.lib;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\6.9.1\msvc2022_64\lib\Qt6EntryPointd]]></Span><Span><![CDATA[.lib;shell32.lib;%(AdditionalDependencies)</AdditionalDependencies>]]></Span>
+              <Span><![CDATA[      ]]></Span><Span Background="LightCoral"><![CDATA[<AdditionalDependencies>C:\Qt\6.10.0\msvc2022_64\lib\Qt6Widgetsd]]></Span><Span><![CDATA[.lib;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\6.10.0\msvc2022_64\lib\Qt6Guid]]></Span><Span><![CDATA[.lib;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\6.10.0\msvc2022_64\lib\Qt6Cored]]></Span><Span><![CDATA[.lib;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\6.10.0\msvc2022_64\lib\Qt6EntryPointd]]></Span><Span><![CDATA[.lib;shell32.lib;%(AdditionalDependencies)</AdditionalDependencies>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
@@ -167,7 +147,7 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">gamewindow.h;release\moc_predefs.h;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\6.9.1\msvc2022_64\bin\moc]]></Span><Span><![CDATA[.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">gamewindow.h;release\moc_predefs.h;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\6.10.0\msvc2022_64\bin\moc]]></Span><Span><![CDATA[.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
@@ -179,12 +159,12 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightCoral"><![CDATA['=='Release|x64'">C:\Qt\6]]></Span><Span><![CDATA[.]]></Span><Span Background="LightCoral"><![CDATA[9.1\msvc2022_64\bin\moc.]]></Span><Span><![CDATA[exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DNDEBUG -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include F:/DifferenctWorkSpace/QtProjects/snake_who_like_eat/snake_who_like_eat/release/moc_predefs.h ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/6.9.1/msvc2022_64/mkspecs/win32-msvc]]></Span><Span><![CDATA[ -IF:/DifferenctWorkSpace/QtProjects/snake_who_like_eat/snake_who_like_eat ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/6.9.1/msvc2022_64/include]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/6.9.1/msvc2022_64/include/QtWidgets]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/6.9.1/msvc2022_64/include/QtGui]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/6.9.1/msvc2022_64/include/QtCore]]></Span><Span><![CDATA[ -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared" gamewindow.h -o release\moc_gamewindow.cpp</Command>]]></Span>
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightCoral"><![CDATA['=='Release|x64'">C:\Qt\6]]></Span><Span><![CDATA[.]]></Span><Span Background="LightCoral"><![CDATA[10.0\msvc2022_64\bin\moc.]]></Span><Span><![CDATA[exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DNDEBUG -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include D:/Work_Space_/Qt_projects/snake_who_like_eat/snake_who_like_eat/release/moc_predefs.h ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/6.10.0/msvc2022_64/mkspecs/win32-msvc]]></Span><Span><![CDATA[ -ID:/Work_Space_/Qt_projects/snake_who_like_eat/snake_who_like_eat ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/6.10.0/msvc2022_64/include]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/6.10.0/msvc2022_64/include/QtWidgets]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/6.10.0/msvc2022_64/include/QtGui]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/6.10.0/msvc2022_64/include/QtCore]]></Span><Span><![CDATA[ -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared" gamewindow.h -o release\moc_gamewindow.cpp</Command>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightGreen"><![CDATA['=='Release|x64'">$(QTDIR)\bin\moc]]></Span><Span><![CDATA[.]]></Span><Span><![CDATA[exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DNDEBUG -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include F:/DifferenctWorkSpace/QtProjects/snake_who_like_eat/snake_who_like_eat/release/moc_predefs.h ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span><![CDATA[ -IF:/DifferenctWorkSpace/QtProjects/snake_who_like_eat/snake_who_like_eat ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtWidgets]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtGui]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtCore]]></Span><Span><![CDATA[ -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared" gamewindow.h -o release\moc_gamewindow.cpp</Command>]]></Span>
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightGreen"><![CDATA['=='Release|x64'">$(QTDIR)\bin\moc]]></Span><Span><![CDATA[.]]></Span><Span><![CDATA[exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DNDEBUG -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include D:/Work_Space_/Qt_projects/snake_who_like_eat/snake_who_like_eat/release/moc_predefs.h ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span><![CDATA[ -ID:/Work_Space_/Qt_projects/snake_who_like_eat/snake_who_like_eat ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtWidgets]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtGui]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtCore]]></Span><Span><![CDATA[ -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared" gamewindow.h -o release\moc_gamewindow.cpp</Command>]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -194,7 +174,7 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">gamewindow.h;debug\moc_predefs.h;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\6.9.1\msvc2022_64\bin\moc]]></Span><Span><![CDATA[.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">gamewindow.h;debug\moc_predefs.h;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\6.10.0\msvc2022_64\bin\moc]]></Span><Span><![CDATA[.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
@@ -206,12 +186,12 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightCoral"><![CDATA['=='Debug|x64'">C:\Qt\6]]></Span><Span><![CDATA[.]]></Span><Span Background="LightCoral"><![CDATA[9.1\msvc2022_64\bin\moc.]]></Span><Span><![CDATA[exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include F:/DifferenctWorkSpace/QtProjects/snake_who_like_eat/snake_who_like_eat/debug/moc_predefs.h ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/6.9.1/msvc2022_64/mkspecs/win32-msvc]]></Span><Span><![CDATA[ -IF:/DifferenctWorkSpace/QtProjects/snake_who_like_eat/snake_who_like_eat ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/6.9.1/msvc2022_64/include]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/6.9.1/msvc2022_64/include/QtWidgets]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/6.9.1/msvc2022_64/include/QtGui]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/6.9.1/msvc2022_64/include/QtCore]]></Span><Span><![CDATA[ -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared" gamewindow.h -o debug\moc_gamewindow.cpp</Command>]]></Span>
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightCoral"><![CDATA['=='Debug|x64'">C:\Qt\6]]></Span><Span><![CDATA[.]]></Span><Span Background="LightCoral"><![CDATA[10.0\msvc2022_64\bin\moc.]]></Span><Span><![CDATA[exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include D:/Work_Space_/Qt_projects/snake_who_like_eat/snake_who_like_eat/debug/moc_predefs.h ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/6.10.0/msvc2022_64/mkspecs/win32-msvc]]></Span><Span><![CDATA[ -ID:/Work_Space_/Qt_projects/snake_who_like_eat/snake_who_like_eat ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/6.10.0/msvc2022_64/include]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/6.10.0/msvc2022_64/include/QtWidgets]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/6.10.0/msvc2022_64/include/QtGui]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/6.10.0/msvc2022_64/include/QtCore]]></Span><Span><![CDATA[ -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared" gamewindow.h -o debug\moc_gamewindow.cpp</Command>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightGreen"><![CDATA['=='Debug|x64'">$(QTDIR)\bin\moc]]></Span><Span><![CDATA[.]]></Span><Span><![CDATA[exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include F:/DifferenctWorkSpace/QtProjects/snake_who_like_eat/snake_who_like_eat/debug/moc_predefs.h ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span><![CDATA[ -IF:/DifferenctWorkSpace/QtProjects/snake_who_like_eat/snake_who_like_eat ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtWidgets]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtGui]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtCore]]></Span><Span><![CDATA[ -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared" gamewindow.h -o debug\moc_gamewindow.cpp</Command>]]></Span>
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightGreen"><![CDATA['=='Debug|x64'">$(QTDIR)\bin\moc]]></Span><Span><![CDATA[.]]></Span><Span><![CDATA[exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include D:/Work_Space_/Qt_projects/snake_who_like_eat/snake_who_like_eat/debug/moc_predefs.h ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span><![CDATA[ -ID:/Work_Space_/Qt_projects/snake_who_like_eat/snake_who_like_eat ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtWidgets]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtGui]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtCore]]></Span><Span><![CDATA[ -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared" gamewindow.h -o debug\moc_gamewindow.cpp</Command>]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -221,7 +201,7 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">mainwindow.h;release\moc_predefs.h;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\6.9.1\msvc2022_64\bin\moc]]></Span><Span><![CDATA[.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">mainwindow.h;release\moc_predefs.h;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\6.10.0\msvc2022_64\bin\moc]]></Span><Span><![CDATA[.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
@@ -233,12 +213,12 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightCoral"><![CDATA['=='Release|x64'">C:\Qt\6]]></Span><Span><![CDATA[.]]></Span><Span Background="LightCoral"><![CDATA[9.1\msvc2022_64\bin\moc.]]></Span><Span><![CDATA[exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DNDEBUG -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include F:/DifferenctWorkSpace/QtProjects/snake_who_like_eat/snake_who_like_eat/release/moc_predefs.h ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/6.9.1/msvc2022_64/mkspecs/win32-msvc]]></Span><Span><![CDATA[ -IF:/DifferenctWorkSpace/QtProjects/snake_who_like_eat/snake_who_like_eat ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/6.9.1/msvc2022_64/include]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/6.9.1/msvc2022_64/include/QtWidgets]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/6.9.1/msvc2022_64/include/QtGui]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/6.9.1/msvc2022_64/include/QtCore]]></Span><Span><![CDATA[ -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared" mainwindow.h -o release\moc_mainwindow.cpp</Command>]]></Span>
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightCoral"><![CDATA['=='Release|x64'">C:\Qt\6]]></Span><Span><![CDATA[.]]></Span><Span Background="LightCoral"><![CDATA[10.0\msvc2022_64\bin\moc.]]></Span><Span><![CDATA[exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DNDEBUG -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include D:/Work_Space_/Qt_projects/snake_who_like_eat/snake_who_like_eat/release/moc_predefs.h ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/6.10.0/msvc2022_64/mkspecs/win32-msvc]]></Span><Span><![CDATA[ -ID:/Work_Space_/Qt_projects/snake_who_like_eat/snake_who_like_eat ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/6.10.0/msvc2022_64/include]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/6.10.0/msvc2022_64/include/QtWidgets]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/6.10.0/msvc2022_64/include/QtGui]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/6.10.0/msvc2022_64/include/QtCore]]></Span><Span><![CDATA[ -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared" mainwindow.h -o release\moc_mainwindow.cpp</Command>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightGreen"><![CDATA['=='Release|x64'">$(QTDIR)\bin\moc]]></Span><Span><![CDATA[.]]></Span><Span><![CDATA[exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DNDEBUG -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include F:/DifferenctWorkSpace/QtProjects/snake_who_like_eat/snake_who_like_eat/release/moc_predefs.h ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span><![CDATA[ -IF:/DifferenctWorkSpace/QtProjects/snake_who_like_eat/snake_who_like_eat ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtWidgets]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtGui]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtCore]]></Span><Span><![CDATA[ -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared" mainwindow.h -o release\moc_mainwindow.cpp</Command>]]></Span>
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightGreen"><![CDATA['=='Release|x64'">$(QTDIR)\bin\moc]]></Span><Span><![CDATA[.]]></Span><Span><![CDATA[exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DNDEBUG -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include D:/Work_Space_/Qt_projects/snake_who_like_eat/snake_who_like_eat/release/moc_predefs.h ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span><![CDATA[ -ID:/Work_Space_/Qt_projects/snake_who_like_eat/snake_who_like_eat ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtWidgets]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtGui]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtCore]]></Span><Span><![CDATA[ -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared" mainwindow.h -o release\moc_mainwindow.cpp</Command>]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -248,7 +228,7 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">mainwindow.h;debug\moc_predefs.h;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\6.9.1\msvc2022_64\bin\moc]]></Span><Span><![CDATA[.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">mainwindow.h;debug\moc_predefs.h;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\6.10.0\msvc2022_64\bin\moc]]></Span><Span><![CDATA[.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
@@ -260,12 +240,12 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightCoral"><![CDATA['=='Debug|x64'">C:\Qt\6]]></Span><Span><![CDATA[.]]></Span><Span Background="LightCoral"><![CDATA[9.1\msvc2022_64\bin\moc.]]></Span><Span><![CDATA[exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include F:/DifferenctWorkSpace/QtProjects/snake_who_like_eat/snake_who_like_eat/debug/moc_predefs.h ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/6.9.1/msvc2022_64/mkspecs/win32-msvc]]></Span><Span><![CDATA[ -IF:/DifferenctWorkSpace/QtProjects/snake_who_like_eat/snake_who_like_eat ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/6.9.1/msvc2022_64/include]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/6.9.1/msvc2022_64/include/QtWidgets]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/6.9.1/msvc2022_64/include/QtGui]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/6.9.1/msvc2022_64/include/QtCore]]></Span><Span><![CDATA[ -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared" mainwindow.h -o debug\moc_mainwindow.cpp</Command>]]></Span>
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightCoral"><![CDATA['=='Debug|x64'">C:\Qt\6]]></Span><Span><![CDATA[.]]></Span><Span Background="LightCoral"><![CDATA[10.0\msvc2022_64\bin\moc.]]></Span><Span><![CDATA[exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include D:/Work_Space_/Qt_projects/snake_who_like_eat/snake_who_like_eat/debug/moc_predefs.h ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/6.10.0/msvc2022_64/mkspecs/win32-msvc]]></Span><Span><![CDATA[ -ID:/Work_Space_/Qt_projects/snake_who_like_eat/snake_who_like_eat ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/6.10.0/msvc2022_64/include]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/6.10.0/msvc2022_64/include/QtWidgets]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/6.10.0/msvc2022_64/include/QtGui]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/6.10.0/msvc2022_64/include/QtCore]]></Span><Span><![CDATA[ -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared" mainwindow.h -o debug\moc_mainwindow.cpp</Command>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightGreen"><![CDATA['=='Debug|x64'">$(QTDIR)\bin\moc]]></Span><Span><![CDATA[.]]></Span><Span><![CDATA[exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include F:/DifferenctWorkSpace/QtProjects/snake_who_like_eat/snake_who_like_eat/debug/moc_predefs.h ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span><![CDATA[ -IF:/DifferenctWorkSpace/QtProjects/snake_who_like_eat/snake_who_like_eat ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtWidgets]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtGui]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtCore]]></Span><Span><![CDATA[ -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared" mainwindow.h -o debug\moc_mainwindow.cpp</Command>]]></Span>
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightGreen"><![CDATA['=='Debug|x64'">$(QTDIR)\bin\moc]]></Span><Span><![CDATA[.]]></Span><Span><![CDATA[exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include D:/Work_Space_/Qt_projects/snake_who_like_eat/snake_who_like_eat/debug/moc_predefs.h ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span><![CDATA[ -ID:/Work_Space_/Qt_projects/snake_who_like_eat/snake_who_like_eat ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtWidgets]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtGui]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtCore]]></Span><Span><![CDATA[ -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared" mainwindow.h -o debug\moc_mainwindow.cpp</Command>]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -275,7 +255,7 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightCoral"><![CDATA['=='Debug|x64'">C:\Qt\6.9.1\msvc2022_64\mkspecs\features\data\dummy]]></Span><Span><![CDATA[.cpp;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightCoral"><![CDATA['=='Debug|x64'">C:\Qt\6.10.0\msvc2022_64\mkspecs\features\data\dummy]]></Span><Span><![CDATA[.cpp;%(AdditionalInputs)</AdditionalInputs>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
@@ -287,7 +267,7 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">cl -Bx"$(QTDIR)\bin\qmake.exe" -nologo -Zc:wchar_t -FS -Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -permissive- -Zc:__cplusplus -Zc:externConstexpr -Zi -MDd -std:c++17 -utf-8 -W3 -w34100 -w34189 -w44456 -w44457 -w44458 -wd4577 -wd4467 -E ]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\6.9.1\msvc2022_64\mkspecs\features\data\dummy]]></Span><Span><![CDATA[.cpp 2&gt;NUL &gt;debug\moc_predefs.h</Command>]]></Span>
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">cl -Bx"$(QTDIR)\bin\qmake.exe" -nologo -Zc:wchar_t -FS -Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -permissive- -Zc:__cplusplus -Zc:externConstexpr -Zi -MDd -std:c++17 -utf-8 -W3 -w34100 -w34189 -w44456 -w44457 -w44458 -wd4577 -wd4467 -E ]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\6.10.0\msvc2022_64\mkspecs\features\data\dummy]]></Span><Span><![CDATA[.cpp 2&gt;NUL &gt;debug\moc_predefs.h</Command>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
@@ -302,7 +282,7 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightCoral"><![CDATA['=='Release|x64'">C:\Qt\6.9.1\msvc2022_64\mkspecs\features\data\dummy]]></Span><Span><![CDATA[.cpp;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightCoral"><![CDATA['=='Release|x64'">C:\Qt\6.10.0\msvc2022_64\mkspecs\features\data\dummy]]></Span><Span><![CDATA[.cpp;%(AdditionalInputs)</AdditionalInputs>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
@@ -314,7 +294,7 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">cl -Bx"$(QTDIR)\bin\qmake.exe" -nologo -Zc:wchar_t -FS -Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -permissive- -Zc:__cplusplus -Zc:externConstexpr -O2 -MD -std:c++17 -utf-8 -W3 -w34100 -w34189 -w44456 -w44457 -w44458 -wd4577 -wd4467 -E ]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\6.9.1\msvc2022_64\mkspecs\features\data\dummy]]></Span><Span><![CDATA[.cpp 2&gt;NUL &gt;release\moc_predefs.h</Command>]]></Span>
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">cl -Bx"$(QTDIR)\bin\qmake.exe" -nologo -Zc:wchar_t -FS -Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -permissive- -Zc:__cplusplus -Zc:externConstexpr -O2 -MD -std:c++17 -utf-8 -W3 -w34100 -w34189 -w44456 -w44457 -w44458 -wd4577 -wd4467 -E ]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\6.10.0\msvc2022_64\mkspecs\features\data\dummy]]></Span><Span><![CDATA[.cpp 2&gt;NUL &gt;release\moc_predefs.h</Command>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
@@ -329,7 +309,7 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">gamewindow.ui;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\6.9.1\msvc2022_64\bin\uic]]></Span><Span><![CDATA[.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">gamewindow.ui;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\6.10.0\msvc2022_64\bin\uic]]></Span><Span><![CDATA[.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
@@ -341,7 +321,7 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightCoral"><![CDATA['=='Release|x64'">C:\Qt\6.9.1\msvc2022_64\bin\uic]]></Span><Span><![CDATA[.exe gamewindow.ui -o ui_gamewindow.h</Command>]]></Span>
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightCoral"><![CDATA['=='Release|x64'">C:\Qt\6.10.0\msvc2022_64\bin\uic]]></Span><Span><![CDATA[.exe gamewindow.ui -o ui_gamewindow.h</Command>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
@@ -356,7 +336,7 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">gamewindow.ui;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\6.9.1\msvc2022_64\bin\uic]]></Span><Span><![CDATA[.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">gamewindow.ui;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\6.10.0\msvc2022_64\bin\uic]]></Span><Span><![CDATA[.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
@@ -368,7 +348,7 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightCoral"><![CDATA['=='Debug|x64'">C:\Qt\6.9.1\msvc2022_64\bin\uic]]></Span><Span><![CDATA[.exe gamewindow.ui -o ui_gamewindow.h</Command>]]></Span>
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightCoral"><![CDATA['=='Debug|x64'">C:\Qt\6.10.0\msvc2022_64\bin\uic]]></Span><Span><![CDATA[.exe gamewindow.ui -o ui_gamewindow.h</Command>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
@@ -383,7 +363,7 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">mainwindow.ui;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\6.9.1\msvc2022_64\bin\uic]]></Span><Span><![CDATA[.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">mainwindow.ui;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\6.10.0\msvc2022_64\bin\uic]]></Span><Span><![CDATA[.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
@@ -395,7 +375,7 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightCoral"><![CDATA['=='Release|x64'">C:\Qt\6.9.1\msvc2022_64\bin\uic]]></Span><Span><![CDATA[.exe mainwindow.ui -o ui_mainwindow.h</Command>]]></Span>
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightCoral"><![CDATA['=='Release|x64'">C:\Qt\6.10.0\msvc2022_64\bin\uic]]></Span><Span><![CDATA[.exe mainwindow.ui -o ui_mainwindow.h</Command>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
@@ -410,7 +390,7 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">mainwindow.ui;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\6.9.1\msvc2022_64\bin\uic]]></Span><Span><![CDATA[.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">mainwindow.ui;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\6.10.0\msvc2022_64\bin\uic]]></Span><Span><![CDATA[.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
@@ -422,7 +402,7 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightCoral"><![CDATA['=='Debug|x64'">C:\Qt\6.9.1\msvc2022_64\bin\uic]]></Span><Span><![CDATA[.exe mainwindow.ui -o ui_mainwindow.h</Command>]]></Span>
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightCoral"><![CDATA['=='Debug|x64'">C:\Qt\6.10.0\msvc2022_64\bin\uic]]></Span><Span><![CDATA[.exe mainwindow.ui -o ui_mainwindow.h</Command>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
@@ -445,7 +425,7 @@
         <TableRow Background="Orange">
           <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
             <Paragraph Margin="10,5" FontWeight="Bold">
-              <Span><![CDATA[F:\DifferenctWorkSpace\QtProjects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj]]></Span>
+              <Span><![CDATA[D:\Work_Space_\Qt_projects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -455,7 +435,7 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DNDEBUG -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include]]></Span><Span Background="LightCoral"><![CDATA[ F:/DifferenctWorkSpace/QtProjects/snake_who_like_eat/snake_who_like_eat/release/moc_predefs]]></Span><Span><![CDATA[.h -I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span Background="LightCoral"><![CDATA[ -IF:/DifferenctWorkSpace/QtProjects/snake_who_like_eat/snake_who_like_eat]]></Span><Span><![CDATA[ ]]></Span><Span><![CDATA[-I$(QTDIR)/include -I$(QTDIR)/include/QtWidgets -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtCore -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared" gamewindow.h -o release\moc_gamewindow.cpp</Command>]]></Span>
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DNDEBUG -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include]]></Span><Span Background="LightCoral"><![CDATA[ D:/Work_Space_/Qt_projects/snake_who_like_eat/snake_who_like_eat/release/moc_predefs]]></Span><Span><![CDATA[.h -I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span Background="LightCoral"><![CDATA[ -ID:/Work_Space_/Qt_projects/snake_who_like_eat/snake_who_like_eat]]></Span><Span><![CDATA[ ]]></Span><Span><![CDATA[-I$(QTDIR)/include -I$(QTDIR)/include/QtWidgets -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtCore -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared" gamewindow.h -o release\moc_gamewindow.cpp</Command>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
@@ -470,7 +450,7 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include]]></Span><Span Background="LightCoral"><![CDATA[ F:/DifferenctWorkSpace/QtProjects/snake_who_like_eat/snake_who_like_eat/debug/moc_predefs]]></Span><Span><![CDATA[.h -I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span Background="LightCoral"><![CDATA[ -IF:/DifferenctWorkSpace/QtProjects/snake_who_like_eat/snake_who_like_eat]]></Span><Span><![CDATA[ ]]></Span><Span><![CDATA[-I$(QTDIR)/include -I$(QTDIR)/include/QtWidgets -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtCore -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared" gamewindow.h -o debug\moc_gamewindow.cpp</Command>]]></Span>
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include]]></Span><Span Background="LightCoral"><![CDATA[ D:/Work_Space_/Qt_projects/snake_who_like_eat/snake_who_like_eat/debug/moc_predefs]]></Span><Span><![CDATA[.h -I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span Background="LightCoral"><![CDATA[ -ID:/Work_Space_/Qt_projects/snake_who_like_eat/snake_who_like_eat]]></Span><Span><![CDATA[ ]]></Span><Span><![CDATA[-I$(QTDIR)/include -I$(QTDIR)/include/QtWidgets -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtCore -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared" gamewindow.h -o debug\moc_gamewindow.cpp</Command>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
@@ -485,7 +465,7 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DNDEBUG -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include]]></Span><Span Background="LightCoral"><![CDATA[ F:/DifferenctWorkSpace/QtProjects/snake_who_like_eat/snake_who_like_eat/release/moc_predefs]]></Span><Span><![CDATA[.h -I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span Background="LightCoral"><![CDATA[ -IF:/DifferenctWorkSpace/QtProjects/snake_who_like_eat/snake_who_like_eat]]></Span><Span><![CDATA[ ]]></Span><Span><![CDATA[-I$(QTDIR)/include -I$(QTDIR)/include/QtWidgets -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtCore -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared" mainwindow.h -o release\moc_mainwindow.cpp</Command>]]></Span>
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DNDEBUG -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include]]></Span><Span Background="LightCoral"><![CDATA[ D:/Work_Space_/Qt_projects/snake_who_like_eat/snake_who_like_eat/release/moc_predefs]]></Span><Span><![CDATA[.h -I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span Background="LightCoral"><![CDATA[ -ID:/Work_Space_/Qt_projects/snake_who_like_eat/snake_who_like_eat]]></Span><Span><![CDATA[ ]]></Span><Span><![CDATA[-I$(QTDIR)/include -I$(QTDIR)/include/QtWidgets -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtCore -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared" mainwindow.h -o release\moc_mainwindow.cpp</Command>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
@@ -500,7 +480,7 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include]]></Span><Span Background="LightCoral"><![CDATA[ F:/DifferenctWorkSpace/QtProjects/snake_who_like_eat/snake_who_like_eat/debug/moc_predefs]]></Span><Span><![CDATA[.h -I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span Background="LightCoral"><![CDATA[ -IF:/DifferenctWorkSpace/QtProjects/snake_who_like_eat/snake_who_like_eat]]></Span><Span><![CDATA[ ]]></Span><Span><![CDATA[-I$(QTDIR)/include -I$(QTDIR)/include/QtWidgets -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtCore -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared" mainwindow.h -o debug\moc_mainwindow.cpp</Command>]]></Span>
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include]]></Span><Span Background="LightCoral"><![CDATA[ D:/Work_Space_/Qt_projects/snake_who_like_eat/snake_who_like_eat/debug/moc_predefs]]></Span><Span><![CDATA[.h -I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span Background="LightCoral"><![CDATA[ -ID:/Work_Space_/Qt_projects/snake_who_like_eat/snake_who_like_eat]]></Span><Span><![CDATA[ ]]></Span><Span><![CDATA[-I$(QTDIR)/include -I$(QTDIR)/include/QtWidgets -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtCore -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um" -I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared" mainwindow.h -o debug\moc_mainwindow.cpp</Command>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
@@ -523,7 +503,7 @@
         <TableRow Background="Orange">
           <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
             <Paragraph Margin="10,5" FontWeight="Bold">
-              <Span><![CDATA[F:\DifferenctWorkSpace\QtProjects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj]]></Span>
+              <Span><![CDATA[D:\Work_Space_\Qt_projects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -1577,7 +1557,7 @@
         <TableRow Background="Orange">
           <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
             <Paragraph Margin="10,5" FontWeight="Bold">
-              <Span><![CDATA[F:\DifferenctWorkSpace\QtProjects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj.filters]]></Span>
+              <Span><![CDATA[D:\Work_Space_\Qt_projects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj.filters]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -1895,7 +1875,7 @@
         <TableRow Background="Orange">
           <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
             <Paragraph Margin="10,5" FontWeight="Bold">
-              <Span><![CDATA[F:\DifferenctWorkSpace\QtProjects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj]]></Span>
+              <Span><![CDATA[D:\Work_Space_\Qt_projects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -1939,7 +1919,7 @@
         <TableRow Background="Orange">
           <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
             <Paragraph Margin="10,5" FontWeight="Bold">
-              <Span><![CDATA[F:\DifferenctWorkSpace\QtProjects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj]]></Span>
+              <Span><![CDATA[D:\Work_Space_\Qt_projects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -1972,7 +1952,7 @@
         <TableRow Background="Orange">
           <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
             <Paragraph Margin="10,5" FontWeight="Bold">
-              <Span><![CDATA[F:\DifferenctWorkSpace\QtProjects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj]]></Span>
+              <Span><![CDATA[D:\Work_Space_\Qt_projects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -2003,7 +1983,7 @@
         <TableRow Background="Orange">
           <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
             <Paragraph Margin="10,5" FontWeight="Bold">
-              <Span><![CDATA[F:\DifferenctWorkSpace\QtProjects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj]]></Span>
+              <Span><![CDATA[D:\Work_Space_\Qt_projects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -2034,7 +2014,7 @@
         <TableRow Background="Orange">
           <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
             <Paragraph Margin="10,5" FontWeight="Bold">
-              <Span><![CDATA[F:\DifferenctWorkSpace\QtProjects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj]]></Span>
+              <Span><![CDATA[D:\Work_Space_\Qt_projects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -2075,7 +2055,7 @@
         <TableRow Background="Orange">
           <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
             <Paragraph Margin="10,5" FontWeight="Bold">
-              <Span><![CDATA[F:\DifferenctWorkSpace\QtProjects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj]]></Span>
+              <Span><![CDATA[D:\Work_Space_\Qt_projects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -2126,7 +2106,7 @@
         <TableRow Background="Orange">
           <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
             <Paragraph Margin="10,5" FontWeight="Bold">
-              <Span><![CDATA[F:\DifferenctWorkSpace\QtProjects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj]]></Span>
+              <Span><![CDATA[D:\Work_Space_\Qt_projects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -2170,7 +2150,7 @@
         <TableRow Background="Orange">
           <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
             <Paragraph Margin="10,5" FontWeight="Bold">
-              <Span><![CDATA[F:\DifferenctWorkSpace\QtProjects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj]]></Span>
+              <Span><![CDATA[D:\Work_Space_\Qt_projects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -2201,7 +2181,7 @@
         <TableRow Background="Orange">
           <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
             <Paragraph Margin="10,5" FontWeight="Bold">
-              <Span><![CDATA[F:\DifferenctWorkSpace\QtProjects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj]]></Span>
+              <Span><![CDATA[D:\Work_Space_\Qt_projects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -2228,7 +2208,7 @@
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[    ]]></Span><Span Background="LightGreen"><![CDATA[<QtInstall>6.9.1_msvc2022_64</QtInstall>]]></Span>
+              <Span><![CDATA[    ]]></Span><Span Background="LightGreen"><![CDATA[<QtInstall>6.10.0_msvc2022_64</QtInstall>]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -2258,7 +2238,7 @@
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span Background="LightGreen"><![CDATA[    <QtInstall>6.9.1_msvc2022_64</QtInstall>]]></Span>
+              <Span Background="LightGreen"><![CDATA[    <QtInstall>6.10.0_msvc2022_64</QtInstall>]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -2286,7 +2266,7 @@
         <TableRow Background="Orange">
           <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
             <Paragraph Margin="10,5" FontWeight="Bold">
-              <Span><![CDATA[F:\DifferenctWorkSpace\QtProjects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj]]></Span>
+              <Span><![CDATA[D:\Work_Space_\Qt_projects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -2334,7 +2314,7 @@
         <TableRow Background="Orange">
           <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
             <Paragraph Margin="10,5" FontWeight="Bold">
-              <Span><![CDATA[F:\DifferenctWorkSpace\QtProjects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj]]></Span>
+              <Span><![CDATA[D:\Work_Space_\Qt_projects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -2382,7 +2362,7 @@
         <TableRow Background="Orange">
           <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
             <Paragraph Margin="10,5" FontWeight="Bold">
-              <Span><![CDATA[F:\DifferenctWorkSpace\QtProjects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj]]></Span>
+              <Span><![CDATA[D:\Work_Space_\Qt_projects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -2430,7 +2410,7 @@
         <TableRow Background="Orange">
           <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
             <Paragraph Margin="10,5" FontWeight="Bold">
-              <Span><![CDATA[F:\DifferenctWorkSpace\QtProjects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj]]></Span>
+              <Span><![CDATA[D:\Work_Space_\Qt_projects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -2478,7 +2458,7 @@
         <TableRow Background="Orange">
           <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
             <Paragraph Margin="10,5" FontWeight="Bold">
-              <Span><![CDATA[F:\DifferenctWorkSpace\QtProjects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj]]></Span>
+              <Span><![CDATA[D:\Work_Space_\Qt_projects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -2526,7 +2506,7 @@
         <TableRow Background="Orange">
           <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
             <Paragraph Margin="10,5" FontWeight="Bold">
-              <Span><![CDATA[F:\DifferenctWorkSpace\QtProjects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj]]></Span>
+              <Span><![CDATA[D:\Work_Space_\Qt_projects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -2570,7 +2550,7 @@
         <TableRow Background="Orange">
           <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
             <Paragraph Margin="10,5" FontWeight="Bold">
-              <Span><![CDATA[F:\DifferenctWorkSpace\QtProjects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj]]></Span>
+              <Span><![CDATA[D:\Work_Space_\Qt_projects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -2680,7 +2660,7 @@
         <TableRow Background="Orange">
           <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
             <Paragraph Margin="10,5" FontWeight="Bold">
-              <Span><![CDATA[F:\DifferenctWorkSpace\QtProjects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj]]></Span>
+              <Span><![CDATA[D:\Work_Space_\Qt_projects\snake_who_like_eat\snake_who_like_eat\snake_who_like_eat.vcxproj]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -2881,4 +2861,4 @@
     <Paragraph />
   </Section>
 </FlowDocument>
-<!--wCAsAIS0K8W4FtX9drz214n9NQo/J+5vtmODe1oTA3s=-->
+<!--ER1VczJ8Oe3IEpNkmjIZbHaPWX59Vgpf/9qu9/W6lAw=-->
