@@ -1,10 +1,26 @@
 #ifndef SNAKE_H
 #define SNAKE_H
 
-class Snake
+#include <QGraphicsItem>
+#include <QRectF>
+
+class GameControl;
+class Snake : public QGraphicsItem
 {
 public:
-    Snake();
+    enum Direction {
+        NoMove,
+        MoveLeft,
+        MoveRight,
+        MoveUp,
+        MoveDown
+    };
+    Snake(GameControl& controller);
+    QRectF boundingRect() const;
+    void paint(QPainter* p_, const QStyleOptionGraphicsItem*, QWidget*);
+private:
+    QPointF        m_head;
+    GameControl& m_controller;
 };
 
 #endif // SNAKE_H

@@ -3,12 +3,14 @@
 #include "gamewindow.h"
 #include "ui_gamewindow.h"
 #include "constant.h"
+#include "gamecontrol.h"
 
 GameWindow::GameWindow(QWidget *parent)
     : QMainWindow(parent)
 	, ui(new Ui::GameWindow), 
 	m_scene(new QGraphicsScene(this)),
-    m_gview(new QGraphicsView(m_scene,this))
+    m_gview(new QGraphicsView(m_scene,this)),
+    m_ctrl(new GameControl(*m_scene,this))
 {
     ui->setupUi(this);
     setCentralWidget(m_gview);

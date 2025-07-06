@@ -9,6 +9,7 @@ namespace Ui {
 class GameWindow;
 }
 
+class GameControl;
 class GameWindow : public QMainWindow
 {
     Q_OBJECT
@@ -26,6 +27,7 @@ private:
     QGraphicsScene* m_scene;
     QGraphicsView* m_gview;
     QPixmap bg;
+    GameControl* m_ctrl;
 };
 
 #endif // GAMEWINDOW_H
