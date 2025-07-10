@@ -18,9 +18,10 @@ public:
     Snake(GameControl& controller);
     QRectF boundingRect() const;
     void paint(QPainter* p_, const QStyleOptionGraphicsItem*, QWidget*);
+    void 	go_forward();
 private:
     QPointF        m_head;
-    GameControl& m_controller;
+	GameControl& m_controller;
 };
 
 #endif // SNAKE_H
