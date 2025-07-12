@@ -1,4 +1,4 @@
-#ifndef GAMECONTROL_H
+ï»¿#ifndef GAMECONTROL_H
 #define GAMECONTROL_H
 
 #include <QObject>
@@ -7,21 +7,26 @@
 
 class QGraphicsScene;
 class Snake;
+class QKeyEvent;
 
 class GameControl:public QObject
 {
 public:
-    // QObject ²»ÄÜ°´ÒıÓÃ´«µİ, ÒòÎª»áµ÷ÓÃ¿½±´¹¹Ôìº¯Êı, ¶øËüµÄ¿½±´¹¹Ôìº¯Êı±»½ûÖ¹ÁË
-    GameControl(QGraphicsScene& scene_,QObject* parent_);
+    // QObject ä¸èƒ½æŒ‰å¼•ç”¨ä¼ é€’, å› ä¸ºä¼šè°ƒç”¨æ‹·è´æ„é€ å‡½æ•°, è€Œå®ƒçš„æ‹·è´æ„é€ å‡½æ•°è¢«ç¦æ­¢äº†
+    explicit GameControl(QGraphicsScene& scene_,QObject* parent_);
+    ~GameControl() = default;
+protected:
+    bool eventFilter(QObject*, QEvent*);
 
 private:
-    QTimer timer;
+    void handleKeyPressed(QKeyEvent*);
+
     QGraphicsScene& m_scene;
     bool isPause;
-
-    // ÍÆ³Ù m_snake µÄ³õÊ¼»¯,ÒòÎªm_snake³õÊ¼»¯ĞèÒªGameControl this
-    Snake* m_snake;
+    QTimer m_timer;
+    // æ¨è¿Ÿ m_snake çš„åˆå§‹åŒ–,å› ä¸ºm_snakeåˆå§‹åŒ–éœ€è¦GameControl this
     //std::unique_ptr<Snake> m_snake;
+    Snake* m_snake;
 };
 
 #endif // GAMECONTROL_H

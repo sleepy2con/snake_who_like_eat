@@ -1,4 +1,4 @@
-#ifndef GAMEWINDOW_H
+ï»¿#ifndef GAMEWINDOW_H
 #define GAMEWINDOW_H
 
 #include <QMainWindow>
@@ -6,28 +6,28 @@
 #include <QGraphicsScene>
 
 namespace Ui {
-class GameWindow;
+	class GameWindow;
 }
 
 class GameControl;
 class GameWindow : public QMainWindow
 {
-    Q_OBJECT
+	Q_OBJECT
 
 public:
-    explicit GameWindow(QWidget *parent = nullptr);
-    ~GameWindow();
-    // ÉèÖÃÃ¿Ò»¸öµØÍ¼´É×©,
-    void InitTile();
+	explicit GameWindow(QWidget* parent = nullptr);
+	~GameWindow();
+	// è®¾ç½®æ¯ä¸€ä¸ªåœ°å›¾ç“·ç –,
+	void InitTile();
 
 private:
-    Ui::GameWindow *ui;
-    // ³ÉÔ±±äÁ¿µÄ³õÊ¼»¯Ë³ĞòÊÇÓÉËüÃÇÔÚÀà¶¨Òå£¨¼´Í·ÎÄ¼ş.h ÎÄ¼ş£©ÖĞÉùÃ÷µÄË³Ğò¾ö¶¨µÄ£¬
-    // ¶ø²»ÊÇÓÉ¹¹Ôìº¯Êı³õÊ¼»¯ÁĞ±íÖĞµÄË³Ğò¾ö¶¨µÄ
-    QGraphicsScene* m_scene;
-    QGraphicsView* m_gview;
-    QPixmap bg;
-    GameControl* m_ctrl;
+	Ui::GameWindow* ui;
+	// æˆå‘˜å˜é‡çš„åˆå§‹åŒ–é¡ºåºæ˜¯ç”±å®ƒä»¬åœ¨ç±»å®šä¹‰ï¼ˆå³å¤´æ–‡ä»¶.h æ–‡ä»¶ï¼‰ä¸­å£°æ˜çš„é¡ºåºå†³å®šçš„ï¼Œ
+	// è€Œä¸æ˜¯ç”±æ„é€ å‡½æ•°åˆå§‹åŒ–åˆ—è¡¨ä¸­çš„é¡ºåºå†³å®šçš„
+	QGraphicsScene* m_scene;
+	QGraphicsView* m_gview;
+	QPixmap bg;
+	GameControl* m_ctrl;
 };
 
 #endif // GAMEWINDOW_H

@@ -8,20 +8,25 @@ class GameControl;
 class Snake : public QGraphicsItem
 {
 public:
-    enum Direction {
-        NoMove,
-        MoveLeft,
-        MoveRight,
-        MoveUp,
-        MoveDown
-    };
-    Snake(GameControl& controller);
-    QRectF boundingRect() const;
-    void paint(QPainter* p_, const QStyleOptionGraphicsItem*, QWidget*);
-    void 	go_forward();
+	enum class Direction {
+		NoMove,
+		MoveLeft,
+		MoveRight,
+		MoveUp,
+		MoveDown
+	};
+	explicit Snake(GameControl& controller);
+	~Snake() = default;
+	QRectF boundingRect() const override;
+	void paint(QPainter* p_, const QStyleOptionGraphicsItem*, QWidget*) override;
+	void 	go_forward();
+	void setMoveDirection(Direction);
+	void advance(int) override;
 private:
-    QPointF        m_head;
+	QPointF        m_head;
 	GameControl& m_controller;
+	Direction m_cur_direction;
+
 };
 
 #endif // SNAKE_H
