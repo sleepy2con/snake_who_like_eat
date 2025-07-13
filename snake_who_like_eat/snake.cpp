@@ -4,8 +4,12 @@
 
 static const qreal SNAKE_SIZE = TILE_SIZE;
 
-Snake::Snake(GameControl& controller_) :m_head(0, 0), m_controller(controller_),
-m_cur_direction(Direction::NoMove)
+Snake::Snake(GameControl& controller_) :
+	m_head(0, 0), 
+	m_controller(controller_),
+	m_cur_direction(Direction::NoMove),
+	m_tick_count(0),
+	m_speed(50)
 {
 }
 
@@ -26,12 +30,15 @@ void Snake::paint(QPainter* p_, const QStyleOptionGraphicsItem*, QWidget*)
 	p_->setBrush(Qt::yellow);
 	p_->setPen(Qt::darkYellow);
 	// 个人理解, 这里的drawRect的坐标是按照boundingRect()的左上角算的
-	p_->drawRect(0, 0, SNAKE_SIZE-1, SNAKE_SIZE-1);
+	p_->drawRect(0, 0, SNAKE_SIZE - 1, SNAKE_SIZE - 1);
 	p_->fillPath(path_, Qt::yellow);
 }
 
 void Snake::go_forward()
 {
+	// 没五次调用一次前进,速度越大越慢
+	if (m_tick_count++ % m_speed !=0)
+		return;
 	switch (m_cur_direction)
 	{
 		case Direction::MoveLeft: {

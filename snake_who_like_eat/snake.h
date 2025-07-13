@@ -23,9 +23,13 @@ public:
 	void setMoveDirection(Direction);
 	void advance(int) override;
 private:
+	int m_speed;
+	unsigned int m_tick_count;
+
 	QPointF        m_head;
 	GameControl& m_controller;
 	Direction m_cur_direction;
+	QList<QPointF> m_tail;
 
 };
 

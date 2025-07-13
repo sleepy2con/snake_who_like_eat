@@ -16,7 +16,7 @@ GameControl::GameControl(QGraphicsScene& scene_, QObject* parent_) :
 	m_scene.addItem(m_snake);
 	// 关键步骤：将 GameControl 实例安装到 m_scene 上,这步才能允许gamecontrol捕获事件
 	m_scene.installEventFilter(this);
-	m_timer.start(1000);
+	m_timer.start(1000 / 33);
     connect(&m_timer, &QTimer::timeout, &m_scene, &QGraphicsScene::advance);
 }
 

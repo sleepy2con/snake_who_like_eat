@@ -27,6 +27,8 @@ private:
     // 推迟 m_snake 的初始化,因为m_snake初始化需要GameControl this
     //std::unique_ptr<Snake> m_snake;
     Snake* m_snake;
+
+
 };
 
 #endif // GAMECONTROL_H
