@@ -26,7 +26,7 @@ void Snake::paint(QPainter* p_, const QStyleOptionGraphicsItem*, QWidget*)
 	p_->setBrush(Qt::yellow);
 	p_->setPen(Qt::darkYellow);
 	// 个人理解, 这里的drawRect的坐标是按照boundingRect()的左上角算的
-	p_->drawRect(0, 0, SNAKE_SIZE, SNAKE_SIZE);
+	p_->drawRect(0, 0, SNAKE_SIZE-1, SNAKE_SIZE-1);
 	p_->fillPath(path_, Qt::yellow);
 }
 

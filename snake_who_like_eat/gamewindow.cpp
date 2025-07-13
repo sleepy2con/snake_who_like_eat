@@ -35,6 +35,12 @@ void GameWindow::InitTile()
     pen.setWidth(1);
     p.setPen(pen);
     // 在 bg 上绘制一个从 (0, 0) 开始、大小为 TILE_SIZE × TILE_SIZE 的矩形
-    p.drawRect(0, 0, TILE_SIZE, TILE_SIZE);
+    //p.drawRect(0, 0, TILE_SIZE, TILE_SIZE);
+    
+    // 问题:现在蛇的边界会稍稍偏移左上一点点, 猜测是QGraphicsView绘制地图瓷砖时,
+    //由于 QPen 的宽度为 1，QPainter 在绘制 drawRect() 时，笔的中心线位于矩形的边缘。
+    p.fillRect(0,0,TILE_SIZE,TILE_SIZE,Qt::gray);
+    p.drawLine(TILE_SIZE - 1, 0, TILE_SIZE - 1, TILE_SIZE - 1);
+    p.drawLine(0, TILE_SIZE - 1, TILE_SIZE - 1, TILE_SIZE - 1);
     m_gview->setBackgroundBrush(QBrush(bg));
 }
