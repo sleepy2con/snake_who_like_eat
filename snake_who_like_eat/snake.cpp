@@ -9,7 +9,8 @@ Snake::Snake(GameControl& controller_) :
 	m_controller(controller_),
 	m_cur_direction(Direction::NoMove),
 	m_tick_count(0),
-	m_speed(50)
+	m_speed(10),
+	directions_size(5)
 {
 }
 
@@ -39,6 +40,16 @@ void Snake::go_forward()
 	// 没五次调用一次前进,速度越大越慢
 	if (m_tick_count++ % m_speed !=0)
 		return;
+	while (!m_next_dirs.empty())
+	{
+		if (isUTurn(m_next_dirs.front()))
+		{
+			m_cur_direction = m_next_dirs.front();
+			m_next_dirs.pop_front();
+			break;
+		}
+		m_next_dirs.pop_front();
+	}
 	switch (m_cur_direction)
 	{
 		case Direction::MoveLeft: {
@@ -68,15 +79,16 @@ void Snake::go_forward()
 
 void Snake::setMoveDirection(Direction dir_)
 {
-	if (m_cur_direction == dir_)
-		return;
-	if (m_cur_direction == Direction::MoveLeft && dir_ == Direction::MoveRight)
-		return;
-	if (m_cur_direction == Direction::MoveRight && dir_ == Direction::MoveLeft)
-		return;
-	if (m_cur_direction == Direction::MoveUp && dir_ == Direction::MoveDown)
-		return;
-	if (m_cur_direction == Direction::MoveDown && dir_ == Direction::MoveUp)
+	while (m_next_dirs.size() >= directions_size)
+	{
+		m_next_dirs.pop_front();
+	}
+	m_next_dirs.push_back(dir_);
+	if (m_cur_direction == dir_ ||
+		m_cur_direction == Direction::MoveLeft && dir_ == Direction::MoveRight ||
+		m_cur_direction == Direction::MoveRight && dir_ == Direction::MoveLeft ||
+		m_cur_direction == Direction::MoveUp && dir_ == Direction::MoveDown ||
+		m_cur_direction == Direction::MoveDown && dir_ == Direction::MoveUp)
 		return;
 	m_cur_direction = dir_;
 }
@@ -85,6 +97,19 @@ void Snake::advance(int phase_)
 {
 	if (!phase_)
 		return;
+
 	go_forward();
+
 	setPos(m_head);
+}
+
+bool Snake::isUTurn(Direction dir_)
+{
+	if (m_cur_direction == dir_ ||
+		m_cur_direction == Direction::MoveLeft && dir_ == Direction::MoveRight ||
+		m_cur_direction == Direction::MoveRight && dir_ == Direction::MoveLeft ||
+		m_cur_direction == Direction::MoveUp && dir_ == Direction::MoveDown ||
+		m_cur_direction == Direction::MoveDown && dir_ == Direction::MoveUp)
+		return false;
+	return true;
 }
