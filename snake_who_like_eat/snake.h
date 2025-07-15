@@ -35,8 +35,9 @@ private:
 	Direction m_cur_direction;
 	int directions_size;	// 设置指令队列长度
 	std::deque<Direction> m_next_dirs; // 记录下一步的方向指令
-	QList<QPointF> m_tail;
+	std::deque<QPointF> m_tail;
 
+	int m_growing;
 };
 
 #endif // SNAKE_H
