@@ -20,6 +20,7 @@ protected:
 
 private:
     void handleKeyPressed(QKeyEvent*);
+    void addNewFood();
 
     QGraphicsScene& m_scene;
     bool isPause;

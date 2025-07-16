@@ -1,10 +1,19 @@
 #ifndef FOOD_H
 #define FOOD_H
+#include <QGraphicsItem>
 
-class Food
+#include "constant.h"
+
+class Food : public QGraphicsItem
 {
 public:
-    Food();
+	explicit inline Food(qreal x, qreal y) {
+		setPos(x, y);
+		//setData(GameObjectsData::GD_Type, GameObjectTypes::GO_Food);
+	};
+	QRectF boundingRect() const override;
+	void paint(QPainter* p_, const QStyleOptionGraphicsItem*, QWidget*) override;
+
 };
 
 #endif // FOOD_H

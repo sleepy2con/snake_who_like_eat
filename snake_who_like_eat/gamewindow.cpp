@@ -14,7 +14,9 @@ GameWindow::GameWindow(QWidget *parent)
 {
     ui->setupUi(this);
     setCentralWidget(m_gview);
-    m_scene->setSceneRect(-100, -100, 200, 200);
+	int w = SCALE_UNIT_SIZE * WIDTH_RATIO;
+	int h = SCALE_UNIT_SIZE * HEIGHT_RATIO;
+    m_scene->setSceneRect(-1 * w /2, -1 * h/2, w, h);
 	InitTile();
     QTimer::singleShot(0, this, [=]() {m_gview->fitInView(m_scene->sceneRect(), Qt::KeepAspectRatioByExpanding); });
 }
