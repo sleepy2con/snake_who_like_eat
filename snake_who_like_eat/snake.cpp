@@ -9,7 +9,7 @@ Snake::Snake(GameControl& controller_) :
 	m_controller(controller_),
 	m_cur_direction(Direction::NoMove),
 	m_tick_count(0),
-	m_speed(10),
+	m_speed(5),
 	directions_size(5),
 	m_growing(4)
 {

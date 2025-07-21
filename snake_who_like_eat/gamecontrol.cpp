@@ -1,4 +1,4 @@
-#include "gamecontrol.h"
+ï»¿#include "gamecontrol.h"
 #include "snake.h"
 
 #include <QGraphicsScene>
@@ -12,13 +12,13 @@
 GameControl::GameControl(QGraphicsScene& scene_, QObject* parent_) :
 	QObject(parent_),
 	isPause(0),
-	m_snake(new Snake(*this)),	//this±íÊ¾Gamecontrol*,*this±íÊ¾Gamecontrol&,&this±íÊ¾GameControl**
+	m_snake(new Snake(*this)),	//thisè¡¨ç¤ºGamecontrol*,*thisè¡¨ç¤ºGamecontrol&,&thisè¡¨ç¤ºGameControl**
 	m_scene(scene_)
 {
 	//m_snake = std::unique_ptr<Snake>(new Snake(*this));
 	m_scene.addItem(m_snake);
 	addNewFood();
-	// ¹Ø¼ü²½Öè£º½« GameControl ÊµÀı°²×°µ½ m_scene ÉÏ,Õâ²½²ÅÄÜÔÊĞígamecontrol²¶»ñÊÂ¼ş
+	// å…³é”®æ­¥éª¤ï¼šå°† GameControl å®ä¾‹å®‰è£…åˆ° m_scene ä¸Š,è¿™æ­¥æ‰èƒ½å…è®¸gamecontrolæ•è·äº‹ä»¶
 	m_scene.installEventFilter(this);
 	m_timer.start(1000 / 33);
     connect(&m_timer, &QTimer::timeout, &m_scene, &QGraphicsScene::advance);
@@ -73,46 +73,25 @@ void GameControl::handleKeyPressed(QKeyEvent* e_)
 
 void GameControl::addNewFood()
 {
-	// 1. »ñÈ¡µØÍ¼µÄÊµ¼Ê¿í¶ÈºÍ¸ß¶È
-	// ×¢Òâ£ºÕâÀïµÄ w ºÍ h ÊÇÄãÉèÖÃ sceneRect Ê±µÄ²ÎÊı
-	// Èç¹û w ºÍ h ÊÇ³ÉÔ±±äÁ¿»ò³£Á¿£¬Ö±½ÓÊ¹ÓÃ¼´¿É
-	int w = SCALE_UNIT_SIZE * WIDTH_RATIO;
-	int h = SCALE_UNIT_SIZE * HEIGHT_RATIO;
+	// 1. è·å–åœ°å›¾çš„å®é™…å®½åº¦å’Œé«˜åº¦
+	// æ³¨æ„ï¼šè¿™é‡Œçš„ w å’Œ h æ˜¯ä½ è®¾ç½® sceneRect æ—¶çš„å‚æ•°
+	// å¦‚æœ w å’Œ h æ˜¯æˆå‘˜å˜é‡æˆ–å¸¸é‡ï¼Œç›´æ¥ä½¿ç”¨å³å¯
+	int w = SCALE_UNIT_SIZE * WIDTH_RATIO;		// 50 * 16 = 800
+	int h = SCALE_UNIT_SIZE * HEIGHT_RATIO;		// 50 * 9 = 450
 
-	// »ñÈ¡³¡¾°µÄÊµ¼Ê×óÉÏ½ÇºÍÓÒÏÂ½Ç×ø±ê
-	// ÓÉÓÚÄãÉèÖÃÁË -w/2, -h/2 ×÷Îª×óÉÏ½Ç£¬ËùÒÔ£º
-	qreal map_min_x = -1.0 * w / 2.0;
-	qreal map_min_y = -1.0 * h / 2.0;
-	qreal map_max_x = 1.0 * w / 2.0;
-	qreal map_max_y = 1.0 * h / 2.0;
+	int x, y;
+	// (0 - 80 ) - 40 = -40 ~ 40
+	x = (std::rand() % w / 10 - (w / 10) / 2);
+	x *= 10;
+	y = std::rand() % h / 10 - (h / 10) / 2;
+	y *= 10;
+	//x = generateRandomInt(-w / 2, w / 2);
+	//y = generateRandomInt(-h / 2, h / 2);
 
-	// ¼ÙÉèÊ³ÎïµÄ´óĞ¡ÊÇ FOOD_SIZE x FOOD_SIZE
-	// Èç¹ûÊ³Îï´óĞ¡Ò²ÊÇËæ»úµÄ£¬Äã¿ÉÒÔÔÚÕâÀïÏÈÉú³ÉËü
-	qreal actual_food_size = TILE_SIZE; // »òÕßµ÷ÓÃ get_random_food_diameter();
-
-	// 2. ¼ÆËãÊ³Îï¿ÉÒÔÉú³ÉµÄÍø¸ñ·¶Î§
-	// Ê³Îï×óÉÏ½ÇµÄ x ×ø±ê±ØĞëÂäÔÚ [map_min_x, map_max_x - actual_food_size] Ö®¼ä
-	// ÇÒ±ØĞëÊÇ TILE_SIZE µÄ±¶Êı
-
-	// ¼ÆËã X ÖáÉÏ¿ÉÒÔ·ÅÖÃÊ³ÎïµÄÍßÆ¬ÊıÁ¿£¨´Ó×óµ½ÓÒ£©
-	int num_tiles_x = (map_max_x - actual_food_size - map_min_x) / TILE_SIZE + 1;
-	// ¼ÆËã Y ÖáÉÏ¿ÉÒÔ·ÅÖÃÊ³ÎïµÄÍßÆ¬ÊıÁ¿£¨´ÓÉÏµ½ÏÂ£©
-	int num_tiles_y = (map_max_y - actual_food_size - map_min_y) / TILE_SIZE + 1;
-
-	// Ëæ»úÑ¡ÔñÒ»¸öÍø¸ñË÷Òı
-	// ×¢Òâ£ºÕâÀï generateRandomInt µÄ·¶Î§ÊÇ [0, count - 1]
-	int random_tile_index_x = generateRandomInt(0, num_tiles_x - 1);
-	int random_tile_index_y = generateRandomInt(0, num_tiles_y - 1);
-
-	// 3. ½«Íø¸ñË÷Òı×ª»»ÎªÊµ¼ÊµÄ³¡¾°×ø±ê
-	qreal food_x = map_min_x + random_tile_index_x * TILE_SIZE;
-	qreal food_y = map_min_y + random_tile_index_y * TILE_SIZE;
-
-	// 4. ´´½¨Ê³Îï QGraphicsItem ²¢Ìí¼Óµ½³¡¾°
-	// ¼ÙÉèÄãÓĞ Food Àà£¬¹¹Ôìº¯Êı½ÓÊÕ x, y, size
-	 Food* new_food = new Food(food_x, food_y);
+	// å‡è®¾ä½ æœ‰ Food ç±»ï¼Œæ„é€ å‡½æ•°æ¥æ”¶ x, y, size
+	 Food* new_food = new Food(x,y);
 	 m_scene.addItem(new_food);
 
-	// µ÷ÊÔÊä³ö
-	//qDebug() << "Ê³ÎïÉú³ÉÎ»ÖÃ: (" << food_x << "," << food_y << "), ³ß´ç: " << actual_food_size;
+	// è°ƒè¯•è¾“å‡º
+	//qDebug() << "é£Ÿç‰©ç”Ÿæˆä½ç½®: (" << food_x << "," << food_y << "), å°ºå¯¸: " << actual_food_size;
 }

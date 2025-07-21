@@ -1,4 +1,4 @@
-#ifndef SNAKE_H
+ï»¿#ifndef SNAKE_H
 #define SNAKE_H
 
 #include <QGraphicsItem>
@@ -33,8 +33,8 @@ private:
 	QPointF        m_head;
 	GameControl& m_controller;
 	Direction m_cur_direction;
-	int directions_size;	// ÉèÖÃÖ¸Áî¶ÓÁĞ³¤¶È
-	std::deque<Direction> m_next_dirs; // ¼ÇÂ¼ÏÂÒ»²½µÄ·½ÏòÖ¸Áî
+	int directions_size;	// è®¾ç½®æŒ‡ä»¤é˜Ÿåˆ—é•¿åº¦
+	std::deque<Direction> m_next_dirs; // è®°å½•ä¸‹ä¸€æ­¥çš„æ–¹å‘æŒ‡ä»¤
 	std::deque<QPointF> m_tail;
 
 	int m_growing;

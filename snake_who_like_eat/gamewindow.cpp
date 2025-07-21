@@ -1,4 +1,4 @@
-
+ï»¿
 #include <QTimer>
 #include "gamewindow.h"
 #include "ui_gamewindow.h"
@@ -28,7 +28,7 @@ GameWindow::~GameWindow()
 
 void GameWindow::InitTile()
 {
-    //´´½¨Ò»¸ö´óĞ¡Îª TILE_SIZE ¡Á TILE_SIZE µÄ¿Õ°× QPixmap
+    //åˆ›å»ºä¸€ä¸ªå¤§å°ä¸º TILE_SIZE Ã— TILE_SIZE çš„ç©ºç™½ QPixmap
     QPixmap bg(TILE_SIZE, TILE_SIZE);
     QPainter p(&bg);
     p.setBrush(QBrush(Qt::gray));
@@ -36,11 +36,11 @@ void GameWindow::InitTile()
     QPen pen(QColor(0, 128, 255));
     pen.setWidth(1);
     p.setPen(pen);
-    // ÔÚ bg ÉÏ»æÖÆÒ»¸ö´Ó (0, 0) ¿ªÊ¼¡¢´óĞ¡Îª TILE_SIZE ¡Á TILE_SIZE µÄ¾ØĞÎ
+    // åœ¨ bg ä¸Šç»˜åˆ¶ä¸€ä¸ªä» (0, 0) å¼€å§‹ã€å¤§å°ä¸º TILE_SIZE Ã— TILE_SIZE çš„çŸ©å½¢
     //p.drawRect(0, 0, TILE_SIZE, TILE_SIZE);
     
-    // ÎÊÌâ:ÏÖÔÚÉßµÄ±ß½ç»áÉÔÉÔÆ«ÒÆ×óÉÏÒ»µãµã, ²Â²âÊÇQGraphicsView»æÖÆµØÍ¼´É×©Ê±,
-    //ÓÉÓÚ QPen µÄ¿í¶ÈÎª 1£¬QPainter ÔÚ»æÖÆ drawRect() Ê±£¬±ÊµÄÖĞĞÄÏßÎ»ÓÚ¾ØĞÎµÄ±ßÔµ¡£
+    // é—®é¢˜:ç°åœ¨è›‡çš„è¾¹ç•Œä¼šç¨ç¨åç§»å·¦ä¸Šä¸€ç‚¹ç‚¹, çŒœæµ‹æ˜¯QGraphicsViewç»˜åˆ¶åœ°å›¾ç“·ç –æ—¶,
+    //ç”±äº QPen çš„å®½åº¦ä¸º 1ï¼ŒQPainter åœ¨ç»˜åˆ¶ drawRect() æ—¶ï¼Œç¬”çš„ä¸­å¿ƒçº¿ä½äºçŸ©å½¢çš„è¾¹ç¼˜ã€‚
     p.fillRect(0,0,TILE_SIZE,TILE_SIZE,Qt::gray);
     p.drawLine(TILE_SIZE - 1, 0, TILE_SIZE - 1, TILE_SIZE - 1);
     p.drawLine(0, TILE_SIZE - 1, TILE_SIZE - 1, TILE_SIZE - 1);
