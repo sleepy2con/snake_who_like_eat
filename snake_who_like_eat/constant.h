@@ -7,7 +7,7 @@ constexpr int WIDTH_RATIO = 16;
 constexpr int HEIGHT_RATIO = 9;
 
 enum class GameObjectsData {
-    GD_Type
+    GD_Type = 0
 };
 
 enum class GameObjectTypes {

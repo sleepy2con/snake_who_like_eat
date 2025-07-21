@@ -1,6 +1,8 @@
 ﻿#include <QPainter>
 #include "snake.h"
 #include "constant.h"
+#include "food.h"
+#include "gamecontrol.h"
 
 static const qreal SNAKE_SIZE = TILE_SIZE;
 
@@ -9,7 +11,7 @@ Snake::Snake(GameControl& controller_) :
 	m_controller(controller_),
 	m_cur_direction(Direction::NoMove),
 	m_tick_count(0),
-	m_speed(10),
+	m_speed(5),
 	directions_size(5),
 	m_growing(4)
 {
@@ -82,11 +84,17 @@ void Snake::go_forward()
 	//当蛇头移动时，它原来的位置就变成了新的身体节，而蛇尾的最后一节则会消失（如果蛇没有增长）。
 	// 把旧的蛇头的位置存进来，当作新的蛇身
 	m_tail.push_front(m_head);
+	m_tail_set.insert(m_head);
 	if (m_growing > 0)
 		m_growing--;
 	else
+	{
+		if (m_tail_set.count(m_tail.back()) > 0)
+		{
+			m_tail_set.erase(m_tail.back());
+		}
 		m_tail.pop_back();
-
+	}
 	switch (m_cur_direction)
 	{
 		case Direction::MoveLeft: {
@@ -134,6 +142,7 @@ void Snake::advance(int phase_)
 
 	go_forward();
 	setPos(m_head);
+	handleCollision();
 }
 
 bool Snake::isUTurn(Direction dir_)
@@ -145,4 +154,21 @@ bool Snake::isUTurn(Direction dir_)
 		m_cur_direction == Direction::MoveDown && dir_ == Direction::MoveUp)
 		return false;
 	return true;
+}
+
+void Snake::handleCollision()
+{
+	QList<QGraphicsItem*> colloions = collidingItems();
+	for(auto & item : colloions)
+	{
+		if (item->data(static_cast<int>(GameObjectsData::GD_Type)).value<GameObjectTypes>() == GameObjectTypes::GO_Food)
+		{
+			m_growing++; // 吃到食物后, 蛇长大
+			m_controller.snakeAteFood((Food*)(item));
+		}
+	}
+	if (m_tail_set.count(m_head) > 0)
+	{
+		m_controller.snakeAteItself();
+	}
 }

@@ -7,10 +7,7 @@
 class Food : public QGraphicsItem
 {
 public:
-	explicit inline Food(qreal x, qreal y) {
-		setPos(x, y);
-		//setData(GameObjectsData::GD_Type, GameObjectTypes::GO_Food);
-	};
+	Food(qreal x, qreal y);
 	QRectF boundingRect() const override;
 	void paint(QPainter* p_, const QStyleOptionGraphicsItem*, QWidget*) override;
 

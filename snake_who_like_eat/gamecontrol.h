@@ -8,6 +8,7 @@
 class QGraphicsScene;
 class Snake;
 class QKeyEvent;
+class Food;
 
 class GameControl:public QObject
 {
@@ -15,6 +16,8 @@ public:
     // QObject 不能按引用传递, 因为会调用拷贝构造函数, 而它的拷贝构造函数被禁止了
     explicit GameControl(QGraphicsScene& scene_,QObject* parent_);
     ~GameControl() = default;
+    void snakeAteFood(Food*);
+    void snakeAteItself();
 protected:
     bool eventFilter(QObject*, QEvent*);
 
