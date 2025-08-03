@@ -537,3 +537,9 @@ Homestead.json
 .env.production
 .phpactor.json
 auth.json
+
+# JetBrains IDEs
+.idea/
+
+# Qt Visual Studio Tools
+*.qtvscr
