@@ -1,9 +1,9 @@
 ﻿
 #include <QTimer>
-#include "gamewindow.h"
-#include "ui_gamewindow.h"
-#include "constant.h"
-#include "gamecontrol.h"
+#include "../include/gamewindow.h"
+#include "../ui_gamewindow.h"
+#include "../include/constant.h"
+#include "../include/gamecontrol.h"
 
 GameWindow::GameWindow(QWidget *parent)
     : QMainWindow(parent)

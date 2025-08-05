@@ -1,6 +1,6 @@
-#include "mainwindow.h"
-#include "ui_mainwindow.h"
-#include "gamewindow.h"
+#include "../include/mainwindow.h"
+#include "../ui_mainwindow.h"
+#include "../include/gamewindow.h"
 
 #include <QMessageBox>
 

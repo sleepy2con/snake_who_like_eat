@@ -1,12 +1,12 @@
-﻿#include "gamecontrol.h"
+﻿#include "../include/gamecontrol.h"
 #include "snake.h"
 
 #include <QGraphicsScene>
 #include <QKeyEvent>
 #include <QTimer>
 
-#include "food.h"
-#include "commhelper.h" // for generateRandomInt
+#include "../include/food.h"
+#include "../include/commhelper.h"
 //#include <memory>
 
 GameControl::GameControl(QGraphicsScene& scene_, QObject* parent_) :

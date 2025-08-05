@@ -1,8 +1,8 @@
 ﻿#include <QPainter>
-#include "snake.h"
-#include "constant.h"
-#include "food.h"
-#include "gamecontrol.h"
+#include "../include/snake.h"
+#include "../include/constant.h"
+#include "../include/food.h"
+#include "../include/gamecontrol.h"
 
 static const qreal SNAKE_SIZE = TILE_SIZE;
 

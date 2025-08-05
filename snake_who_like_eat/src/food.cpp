@@ -1,6 +1,6 @@
 #include <QPainter>
-#include "food.h"
-#include "commhelper.h"
+#include "../include/food.h"
+#include "../include/commhelper.h"
 
 static const qreal FOOD_RADIUS = 3.0;
 

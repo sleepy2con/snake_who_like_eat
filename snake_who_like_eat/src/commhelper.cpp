@@ -1,7 +1,7 @@
 ﻿#include <random>   // 包含随机数引擎和分布
 #include <chrono>   // 用于更好的种子
 #include <iostream> // 用于示例输出
-#include "commhelper.h"
+#include "../include/commhelper.h"
 
 /**
  * @brief 生成指定范围内（包含 min 和 max）的随机整数。
