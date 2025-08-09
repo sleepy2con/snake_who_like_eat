@@ -9,7 +9,9 @@ GameWindow::GameWindow(QWidget *parent)
       , ui(new Ui::GameWindow),
       m_scene(new QGraphicsScene(this)),
       m_gview(new QGraphicsView(m_scene, this)),
-      m_ctrl(new GameControl(*m_scene, this)) {
+      m_ctrl(new GameControl(*m_scene, this))
+      // m_gameOverText(new QGraphicsSimpleTextItem("你死了", m_scene))
+{
     ui->setupUi(this);
     setCentralWidget(m_gview);
     int w = SCALE_UNIT_SIZE * WIDTH_RATIO;

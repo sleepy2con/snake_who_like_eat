@@ -108,7 +108,7 @@ void Snake::go_forward() {
 }
 
 void Snake::setMoveDirection(Direction dir_) {
-    std::lock_guard lock(m_mutex);
+    // std::lock_guard lock(m_mutex);
     while (m_next_dirs.size() >= directions_size) {
         m_next_dirs.pop_front();
     }

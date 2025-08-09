@@ -4,6 +4,7 @@
 #include <QMainWindow>
 #include <QGraphicsView>
 #include <QGraphicsScene>
+#include <QGraphicsSimpleTextItem>
 
 namespace Ui {
 	class GameWindow;
@@ -28,6 +29,7 @@ private:
 	QGraphicsView* m_gview;
 	QPixmap bg;
 	GameControl* m_ctrl;
+	// QGraphicsSimpleTextItem* m_gameOverText;
 };
 
 #endif // GAMEWINDOW_H

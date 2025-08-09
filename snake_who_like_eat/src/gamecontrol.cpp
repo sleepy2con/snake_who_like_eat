@@ -3,6 +3,7 @@
 
 #include <QGraphicsScene>
 #include <QKeyEvent>
+#include <QMessageBox>
 #include <QTimer>
 
 #include "../include/food.h"
@@ -35,8 +36,16 @@ void GameControl::snakeAteItself()
 	// 一次性定时器
 	QTimer::singleShot(0, this, [this]() {
 		disconnect(&m_timer, &QTimer::timeout, &m_scene, &QGraphicsScene::advance);
-		//if(QMessageBox)
-		exit(0);
+		// exit(0);
+		QMessageBox::StandardButton reply = QMessageBox::information(nullptr, "游戏结束", "你死了,要重来吗", QMessageBox::Yes | QMessageBox::No,
+ QMessageBox::Yes);
+		if (reply == QMessageBox::Yes) {
+			connect(&m_timer,&QTimer::timeout,&m_scene,&QGraphicsScene::advance);
+			m_scene.clear();
+			m_snake = new Snake(*this);
+			m_scene.addItem(m_snake);
+			addNewFood();
+		}
 		});
 }
 
