@@ -15,6 +15,7 @@ namespace Ui {
 class GameControl;
 class Food;
 class RandomGenerator;
+class QLabel;
 
 class GameWindow : public QMainWindow
 {
@@ -25,7 +26,7 @@ public:
 	~GameWindow() override;
 	// 设置每一个地图瓷砖,
 	void InitTile();
-	void InitUI();
+	void InitStatusBar();
 	void InitCallBack();
 	void AddFood();
 private:
@@ -39,6 +40,7 @@ private:
 	QPixmap bg;
 	GameControl* m_ctrl;
 	RandomGenerator random_generator_;
+	QLabel* cur_score;
 	// QGraphicsSimpleTextItem* m_gameOverText;
 };
 

@@ -8,6 +8,8 @@ constexpr int SCALE_UNIT_SIZE = 50;
 constexpr int WIDTH_RATIO = 16;
 constexpr int HEIGHT_RATIO = 9;
 
+constexpr unsigned int OneFoodPoints = 10;
+
 enum class GameObjectsData {
     GD_Type = 0
 };

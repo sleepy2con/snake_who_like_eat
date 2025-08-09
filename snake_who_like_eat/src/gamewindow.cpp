@@ -24,7 +24,7 @@ GameWindow::GameWindow(QWidget *parent)
     InitCallBack();
     m_scene->setSceneRect(-1 * m_map_width / 2, -1 * m_map_height / 2, m_map_width, m_map_height);
     InitTile();
-    InitUI();
+    InitStatusBar();
     QTimer::singleShot(0, this, [=]() { m_gview->fitInView(m_scene->sceneRect(), Qt::KeepAspectRatioByExpanding); });
 }
 
@@ -54,18 +54,24 @@ void GameWindow::InitTile() {
     AddFood();
 }
 
-void GameWindow::InitUI() {
+void GameWindow::InitStatusBar() {
     QStatusBar *statusBar = this->statusBar();
     auto *leftLabel = new QLabel(QString("宽: %1 ,高: %2 ").arg(m_map_width).arg(m_map_height));
     statusBar->addWidget(leftLabel);
+    auto *fixed_score_text_label = new QLabel("当前分数:");
+    statusBar->addPermanentWidget(fixed_score_text_label);
+    cur_score = new QLabel(QString::number(m_ctrl->getScore()));
+    statusBar->addPermanentWidget(cur_score);
 }
 
 void GameWindow::InitCallBack() {
     m_ctrl->setCallBack([this](Food *f) {
         if (f) {
-            qDebug() << "Food was eat";
             m_scene->removeItem(f);
+            m_ctrl->AddPoints(OneFoodPoints);
+            qDebug() << "Food was eat,cur score:"<<m_ctrl->getScore();
         }
+        cur_score->setText(QString::number(m_ctrl->getScore()));
         AddFood();
     });
 }

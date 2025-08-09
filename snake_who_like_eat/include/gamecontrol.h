@@ -27,20 +27,23 @@ public:
 
     void setCallBack(std::function<void(Food *)> cb_);
 
+    void AddPoints(const unsigned int grades_) {
+        m_score += grades_;
+    }
+
+    [[nodiscard]] unsigned int getScore() const {
+        return m_score;
+    }
 protected:
     bool eventFilter(QObject *, QEvent *) override;
 
 private:
     void handleKeyPressed(QKeyEvent *);
-
-    void addNewFood(Food* f);
-
-
     QGraphicsScene &m_scene;
     bool isPause;
     QTimer m_timer;
     Snake *m_snake;
-
+    unsigned int m_score;
     std::function<void(Food *)> cb_ate_food;
 };
 

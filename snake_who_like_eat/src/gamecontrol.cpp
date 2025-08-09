@@ -17,7 +17,8 @@ GameControl::GameControl(QGraphicsScene &scene_, QObject *parent_)
     : QObject(parent_),
       isPause(false),
       m_snake(new Snake(*this)), //this表示Gamecontrol*,*this表示Gamecontrol&,&this表示GameControl**
-      m_scene(scene_) {
+      m_scene(scene_)
+      , m_score(0) {
     //m_snake = std::unique_ptr<Snake>(new Snake(*this));
     m_scene.addItem(m_snake);
     // 关键步骤：将 GameControl 实例安装到 m_scene 上,这步才能允许gamecontrol捕获事件
@@ -27,8 +28,10 @@ GameControl::GameControl(QGraphicsScene &scene_, QObject *parent_)
 }
 
 void GameControl::snakeAteFood(Food *f) {
-    // m_scene.removeItem(f);
-    addNewFood(f);
+    qDebug() << "exec addNewFood";
+    if (cb_ate_food) {
+        this->cb_ate_food(f);
+    }
 }
 
 void GameControl::snakeAteItself() {
@@ -44,7 +47,8 @@ void GameControl::snakeAteItself() {
             m_scene.clear();
             m_snake = new Snake(*this);
             m_scene.addItem(m_snake);
-            addNewFood(nullptr);
+            snakeAteFood(nullptr);
+            m_score = 0;
         }
     });
 }
@@ -89,12 +93,5 @@ void GameControl::handleKeyPressed(QKeyEvent *e_) {
         }
         default:
             break;
-    }
-}
-
-void GameControl::addNewFood(Food* f) {
-    qDebug() << "exec addNewFood" ;
-    if (cb_ate_food) {
-        this->cb_ate_food(f);
     }
 }
