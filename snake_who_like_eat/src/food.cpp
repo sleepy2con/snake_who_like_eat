@@ -11,7 +11,7 @@ Food::Food(qreal x, qreal y)
 }
 
 QRectF Food::boundingRect() const {
-	return QRectF(-TILE_SIZE, -TILE_SIZE, TILE_SIZE * 2, TILE_SIZE * 2); // Example size, adjust as needed
+	return {-TILE_SIZE, -TILE_SIZE, TILE_SIZE * 2, TILE_SIZE * 2}; // Example size, adjust as needed
 }
 
 void Food::paint(QPainter* p_, const QStyleOptionGraphicsItem*, QWidget*) {

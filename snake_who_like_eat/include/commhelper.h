@@ -1,6 +1,16 @@
 #ifndef COMMHELPER_H
 #define COMMHELPER_H
+#include <random>
 
-int generateRandomInt(int min_val, int max_val);
+class RandomGenerator {
+public:
+    RandomGenerator();
 
+    int getInt(int, int);
+
+    double getDouble(double, double);
+
+private:
+    std::mt19937 gen;
+};
 #endif

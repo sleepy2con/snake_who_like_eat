@@ -8,7 +8,7 @@ class Food : public QGraphicsItem
 {
 public:
 	Food(qreal x, qreal y);
-	QRectF boundingRect() const override;
+	[[nodiscard]] QRectF boundingRect() const override;
 	void paint(QPainter* p_, const QStyleOptionGraphicsItem*, QWidget*) override;
 
 };

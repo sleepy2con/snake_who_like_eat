@@ -1,23 +1,30 @@
 ﻿#include <QTimer>
+#include <QLabel>
+
 #include "../include/gamewindow.h"
 #include "../ui_gamewindow.h"
-#include "../include/constant.h"
-#include "../include/gamecontrol.h"
+#include "constant.h"
+#include "gamecontrol.h"
+#include "food.h"
+#include "commhelper.h"
 
 GameWindow::GameWindow(QWidget *parent)
     : QMainWindow(parent)
-      , ui(new Ui::GameWindow),
-      m_scene(new QGraphicsScene(this)),
-      m_gview(new QGraphicsView(m_scene, this)),
-      m_ctrl(new GameControl(*m_scene, this))
-      // m_gameOverText(new QGraphicsSimpleTextItem("你死了", m_scene))
+      , ui(new Ui::GameWindow)
+      , m_scene(new QGraphicsScene(this))
+      , m_gview(new QGraphicsView(m_scene, this))
+      , m_ctrl(new GameControl(*m_scene, this))
+      , random_generator_()
+      , m_map_width(SCALE_UNIT_SIZE * WIDTH_RATIO)
+      , m_map_height(SCALE_UNIT_SIZE * HEIGHT_RATIO)
+// , m_gameOverText(new QGraphicsSimpleTextItem("你死了", m_scene))
 {
     ui->setupUi(this);
     setCentralWidget(m_gview);
-    int w = SCALE_UNIT_SIZE * WIDTH_RATIO;
-    int h = SCALE_UNIT_SIZE * HEIGHT_RATIO;
-    m_scene->setSceneRect(-1 * w / 2, -1 * h / 2, w, h);
+    InitCallBack();
+    m_scene->setSceneRect(-1 * m_map_width / 2, -1 * m_map_height / 2, m_map_width, m_map_height);
     InitTile();
+    InitUI();
     QTimer::singleShot(0, this, [=]() { m_gview->fitInView(m_scene->sceneRect(), Qt::KeepAspectRatioByExpanding); });
 }
 
@@ -44,4 +51,29 @@ void GameWindow::InitTile() {
     p.drawLine(TILE_SIZE - 1, 0, TILE_SIZE - 1, TILE_SIZE - 1);
     p.drawLine(0, TILE_SIZE - 1, TILE_SIZE - 1, TILE_SIZE - 1);
     m_gview->setBackgroundBrush(QBrush(_tile));
+    AddFood();
+}
+
+void GameWindow::InitUI() {
+    QStatusBar *statusBar = this->statusBar();
+    auto *leftLabel = new QLabel(QString("宽: %1 ,高: %2 ").arg(m_map_width).arg(m_map_height));
+    statusBar->addWidget(leftLabel);
+}
+
+void GameWindow::InitCallBack() {
+    m_ctrl->setCallBack([this](Food *f) {
+        if (f) {
+            qDebug() << "Food was eat";
+            m_scene->removeItem(f);
+        }
+        AddFood();
+    });
+}
+
+void GameWindow::AddFood() {
+    int x = random_generator_.getInt(-m_map_width / 2, m_map_width / 2);
+    int y = random_generator_.getInt(-m_map_height / 2, m_map_height / 2);
+    auto food = new Food(x, y);
+    qDebug() << "Food created at:" << x << "," << y;
+    m_scene->addItem(food);
 }

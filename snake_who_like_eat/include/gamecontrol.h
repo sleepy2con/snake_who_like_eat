@@ -5,34 +5,43 @@
 #include <QTimer>
 #include <memory>
 
+#include <functional>
+
 class QGraphicsScene;
 class Snake;
 class QKeyEvent;
 class Food;
+class random_device;
+class mt19937;
 
-class GameControl:public QObject
-{
+class GameControl : public QObject {
 public:
     // QObject 不能按引用传递, 因为会调用拷贝构造函数, 而它的拷贝构造函数被禁止了
-    explicit GameControl(QGraphicsScene& scene_,QObject* parent_);
-    ~GameControl() = default;
-    void snakeAteFood(Food*);
+    explicit GameControl(QGraphicsScene &scene_, QObject *parent_);
+
+    ~GameControl() override = default;
+
+    void snakeAteFood(Food *);
+
     void snakeAteItself();
+
+    void setCallBack(std::function<void(Food *)> cb_);
+
 protected:
-    bool eventFilter(QObject*, QEvent*);
+    bool eventFilter(QObject *, QEvent *) override;
 
 private:
-    void handleKeyPressed(QKeyEvent*);
-    void addNewFood();
+    void handleKeyPressed(QKeyEvent *);
 
-    QGraphicsScene& m_scene;
+    void addNewFood(Food* f);
+
+
+    QGraphicsScene &m_scene;
     bool isPause;
     QTimer m_timer;
-    // 推迟 m_snake 的初始化,因为m_snake初始化需要GameControl this
-    //std::unique_ptr<Snake> m_snake;
-    Snake* m_snake;
+    Snake *m_snake;
 
-
+    std::function<void(Food *)> cb_ate_food;
 };
 
 #endif // GAMECONTROL_H
