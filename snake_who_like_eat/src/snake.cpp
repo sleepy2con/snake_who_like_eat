@@ -128,7 +128,7 @@ void Snake::setMoveDirection(Direction dir_) {
 void Snake::advance(int phase_) {
     if (!phase_)
         return;
-
+    // TODO 发现一个bug，蛇现在180度走还是会吃自己，需要解决
     go_forward();
     // 改变当前图元左上角在父元素中的坐标
     setPos(m_head.x(), m_head.y());
