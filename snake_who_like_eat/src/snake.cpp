@@ -48,11 +48,11 @@ void Snake::paint(QPainter *p_, const QStyleOptionGraphicsItem *, QWidget *) {
     p_->setPen(Qt::green);
     // 个人理解, 这里的drawRect的坐标是按照boundingRect()的左上角算的
     // 蛇头
-    p_->drawRect(0, 0, SNAKE_SIZE - 1, SNAKE_SIZE - 1);
+    p_->drawRect(1, 1, SNAKE_SIZE - 1, SNAKE_SIZE - 1);
     // 蛇身
     for (auto &t: m_tail) {
         QPointF cur_tail_pos = mapFromScene(t);
-        _path.addRect(cur_tail_pos.x(), cur_tail_pos.y(), SNAKE_SIZE - 1, SNAKE_SIZE - 1);
+        _path.addRect(cur_tail_pos.x()+1, cur_tail_pos.y()+1, SNAKE_SIZE - 1, SNAKE_SIZE - 1);
     }
     p_->fillPath(_path, Qt::yellow);
     p_->restore();
@@ -127,7 +127,8 @@ void Snake::advance(int phase_) {
         return;
 
     go_forward();
-    setPos(m_head);
+    // 改变当前图元左上角在父元素中的坐标
+    setPos(m_head.x() + 2, m_head.y() + 2);
     handleCollision();
 }
 
