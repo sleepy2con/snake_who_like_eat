@@ -19,7 +19,8 @@ void Food::paint(QPainter *p_, const QStyleOptionGraphicsItem *, QWidget *) {
     //p_->drawEllipse(boundingRect()); // Draw a circle for the foodi
     p_->setRenderHint(QPainter::Antialiasing, true); // Enable antialiasing for smoother edges
     QPainterPath path_;
-    p_->drawRect(0, 0, TILE_SIZE/2, TILE_SIZE/2);
+    p_->setPen(Qt::NoPen);
+    p_->drawRect(TILE_SIZE / 4, TILE_SIZE / 4, TILE_SIZE/2, TILE_SIZE/2);
     // path_.addEllipse(QPointF(TILE_SIZE/2, TILE_SIZE/2), FOOD_RADIUS, FOOD_RADIUS);
     p_->fillPath(path_, Qt::red);
 }

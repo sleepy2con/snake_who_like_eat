@@ -39,22 +39,25 @@ QRectF Snake::boundingRect() const {
     return rect_;
 }
 
-void Snake::paint(QPainter *p_, const QStyleOptionGraphicsItem *, QWidget *) {
-    p_->save();
+QPainterPath Snake::shape() const
+{
+   //  定义了图元的精确几何形状。用于碰撞检测、鼠标事件处理等。
     QPainterPath _path;
     _path.setFillRule(Qt::WindingFill);
-    //path_.addRect(QRectF(0, 0, SNAKE_SIZE, SNAKE_SIZE));
-    p_->setBrush(Qt::yellow);
-    p_->setPen(Qt::green);
-    // 个人理解, 这里的drawRect的坐标是按照boundingRect()的左上角算的
-    // 蛇头
-    p_->drawRect(1, 1, SNAKE_SIZE - 1, SNAKE_SIZE - 1);
+    _path.addRect(1,1,SNAKE_SIZE - 2,SNAKE_SIZE-2);
     // 蛇身
     for (auto &t: m_tail) {
         QPointF cur_tail_pos = mapFromScene(t);
-        _path.addRect(cur_tail_pos.x()+1, cur_tail_pos.y()+1, SNAKE_SIZE - 1, SNAKE_SIZE - 1);
+        _path.addRect(cur_tail_pos.x()+1, cur_tail_pos.y()+1, SNAKE_SIZE - 2, SNAKE_SIZE - 2);
     }
-    p_->fillPath(_path, Qt::yellow);
+    return _path;
+}
+
+void Snake::paint(QPainter *p_, const QStyleOptionGraphicsItem *, QWidget *) {
+    p_->save();
+    p_->setBrush(Qt::yellow);
+    p_->setPen(Qt::NoPen);
+    p_->fillPath(shape(), Qt::yellow);
     p_->restore();
 }
 
@@ -128,7 +131,7 @@ void Snake::advance(int phase_) {
 
     go_forward();
     // 改变当前图元左上角在父元素中的坐标
-    setPos(m_head.x() + 2, m_head.y() + 2);
+    setPos(m_head.x(), m_head.y());
     handleCollision();
 }
 
@@ -143,6 +146,7 @@ bool Snake::isUTurn(Direction dir_) {
 }
 
 void Snake::handleCollision() {
+    // 碰撞是根据item的boundrect来检测的
     QList<QGraphicsItem *> colloions = collidingItems();
     for (auto &item: colloions) {
         if (item->data(static_cast<int>(GameObjectsData::GD_Type)).value<GameObjectTypes>() ==

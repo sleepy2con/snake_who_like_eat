@@ -27,7 +27,7 @@ namespace std {
 
 class GameControl;
 
-class Snake : public QGraphicsItem {
+class Snake final : public QGraphicsItem {
 public:
     enum class Direction {
         NoMove,
@@ -42,6 +42,7 @@ public:
     ~Snake() override = default;
 
     QRectF boundingRect() const override;
+    QPainterPath shape() const;
 
     void paint(QPainter *p_, const QStyleOptionGraphicsItem *, QWidget *) override;
 
