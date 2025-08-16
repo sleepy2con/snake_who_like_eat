@@ -5,7 +5,6 @@
 static const qreal FOOD_RADIUS = 3.0;
 
 Food::Food(qreal x, qreal y) :m_x(x),m_y(y){
-    // TODO 食物会显示在地图网格边界处，可能同时在两三个网格中，考虑修改下
     setPos(x*TILE_SIZE, y*TILE_SIZE);
     setData(static_cast<int>(GameObjectsData::GD_Type), QVariant::fromValue(GameObjectTypes::GO_Food));
 }
@@ -26,7 +25,6 @@ void Food::paint(QPainter *p_, const QStyleOptionGraphicsItem *, QWidget *) {
 
 QPainterPath Food::shape() const
 {
-    // TODO 食物有时候会被切割，看起来不像圆形的样子
     QPainterPath path_;
     // 让矩形的左上角变为 (-TILE_SIZE/4, -TILE_SIZE/4)，这样它就居中于(0,0)了
     // path_.addRect(TILE_SIZE / 4, TILE_SIZE / 4, TILE_SIZE/2, TILE_SIZE/2);
