@@ -16,6 +16,7 @@ class GameControl;
 class Food;
 class RandomGenerator;
 class QLabel;
+class MyGraphicsView;
 
 class GameWindow : public QMainWindow
 {
@@ -34,7 +35,7 @@ private:
 	// 成员变量的初始化顺序是由它们在类定义（即头文件.h 文件）中声明的顺序决定的，
 	// 而不是由构造函数初始化列表中的顺序决定的
 	QGraphicsScene* m_scene;
-	QGraphicsView* m_gview;
+	MyGraphicsView* m_gview;
 	int m_map_width;
 	int m_map_height;
 	QPixmap bg;

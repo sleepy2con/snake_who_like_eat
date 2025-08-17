@@ -7,12 +7,13 @@
 #include "gamecontrol.h"
 #include "food.h"
 #include "commhelper.h"
+#include "MyGraphicsView.h"
 
 GameWindow::GameWindow(QWidget *parent)
     : QMainWindow(parent)
       , ui(new Ui::GameWindow)
       , m_scene(new QGraphicsScene(this))
-      , m_gview(new QGraphicsView(m_scene, this))
+      , m_gview(new MyGraphicsView(m_scene, this))
       , m_ctrl(new GameControl(*m_scene, this))
       , random_generator_()
       , m_map_width(TILE_SIZE * WIDTH_RATIO * 2)
@@ -23,9 +24,10 @@ GameWindow::GameWindow(QWidget *parent)
     setCentralWidget(m_gview);
     InitCallBack();
     m_scene->setSceneRect(-1 * m_map_width / 2, -1 * m_map_height / 2, m_map_width, m_map_height);
+    m_gview->setScene(m_scene);
     InitTile();
     InitStatusBar();
-    QTimer::singleShot(0, this, [=]() { m_gview->fitInView(m_scene->sceneRect(), Qt::KeepAspectRatioByExpanding); });
+    // QTimer::singleShot(0, this, [=]() { m_gview->fitInView(m_scene->sceneRect(), Qt::KeepAspectRatioByExpanding); });
 }
 
 GameWindow::~GameWindow() {

@@ -43,6 +43,8 @@ set(PROJECT_HEADERS
 set(PROJECT_UIS
         snake_who_like_eat/gamewindow.ui
         snake_who_like_eat/mainwindow.ui
+        snake_who_like_eat/src/MyGraphicsView.cpp
+        snake_who_like_eat/include/MyGraphicsView.h
 )
 
 # 创建可执行文件，包含所有源文件、头文件和UI文件
