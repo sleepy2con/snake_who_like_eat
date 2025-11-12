@@ -35,6 +35,7 @@ void GameControl::snakeAteFood(Food *f) {
 }
 
 void GameControl::snakeAteItself() {
+    emit snake_is_dead();
     // 一次性定时器
     QTimer::singleShot(0, this, [this]() {
         disconnect(&m_timer, &QTimer::timeout, &m_scene, &QGraphicsScene::advance);

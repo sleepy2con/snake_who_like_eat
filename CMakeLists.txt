@@ -11,6 +11,10 @@ set(CMAKE_AUTOUIC ON)
 # 告诉CMake到哪里找Qt库，确保路径正确
 set(CMAKE_PREFIX_PATH "C:/Qt/6.10.0/msvc2022_64/lib/cmake/")
 
+include_directories(
+        ${CMAKE_CURRENT_SOURCE_DIR}/include
+        F:/code/lib/RapidXML-117/RapidXML)
+
 find_package(Qt6 COMPONENTS
         Core
         Gui
@@ -45,6 +49,10 @@ set(PROJECT_UIS
         snake_who_like_eat/mainwindow.ui
         snake_who_like_eat/src/MyGraphicsView.cpp
         snake_who_like_eat/include/MyGraphicsView.h
+        snake_who_like_eat/src/ReadWriteXml.cpp
+        snake_who_like_eat/include/ReadWriteXml.h
+        snake_who_like_eat/src/UserInfoDialog.cpp
+        snake_who_like_eat/src/UserInfoDialog.h
 )
 
 # 创建可执行文件，包含所有源文件、头文件和UI文件
@@ -60,6 +68,7 @@ add_executable(snake_who_like_eat
 target_include_directories(snake_who_like_eat PRIVATE
         ${CMAKE_CURRENT_SOURCE_DIR}/snake_who_like_eat
         ${CMAKE_CURRENT_SOURCE_DIR}/snake_who_like_eat/include
+        F:/code/lib/RapidXML-117/RapidXML
 )
 
 # 链接Qt库

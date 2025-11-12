@@ -8,6 +8,7 @@
 #include "food.h"
 #include "commhelper.h"
 #include "MyGraphicsView.h"
+#include "ReadWriteXml.h"
 
 GameWindow::GameWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -28,6 +29,11 @@ GameWindow::GameWindow(QWidget *parent)
     InitTile();
     InitStatusBar();
     // QTimer::singleShot(0, this, [=]() { m_gview->fitInView(m_scene->sceneRect(), Qt::KeepAspectRatioByExpanding); });
+    connect(m_ctrl, &GameControl::snake_is_dead, [=]()
+    {
+        ReadWriteXml _writer;
+        _writer.writeScore();
+    });
 }
 
 GameWindow::~GameWindow() {

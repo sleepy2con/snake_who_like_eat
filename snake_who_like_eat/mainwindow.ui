@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>906</width>
+    <height>661</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -39,6 +39,13 @@
          <widget class="QPushButton" name="btn_startgame">
           <property name="text">
            <string>开始</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="btn_set_user">
+          <property name="text">
+           <string>设置角色</string>
           </property>
          </widget>
         </item>
