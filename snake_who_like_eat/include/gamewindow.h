@@ -42,6 +42,8 @@ private:
 	GameControl* m_ctrl;
 	RandomGenerator random_generator_;
 	QLabel* cur_score;
+
+	std::vector<int> m_score_list; ///< 读取的最高分列表
 	// QGraphicsSimpleTextItem* m_gameOverText;
 };
 

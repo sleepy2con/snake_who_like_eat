@@ -31,8 +31,12 @@ GameWindow::GameWindow(QWidget *parent)
     // QTimer::singleShot(0, this, [=]() { m_gview->fitInView(m_scene->sceneRect(), Qt::KeepAspectRatioByExpanding); });
     connect(m_ctrl, &GameControl::snake_is_dead, [=]()
     {
+        // 蛇死掉后写入分数
+        // TODO 每次查找比较分数如果大于现有则更新
         ReadWriteXml _writer;
-        _writer.writeScore();
+        m_score_list = {2,3,4,651};
+        std::ranges::sort(m_score_list);
+        _writer.writeAndUpdataScoreList(m_score_list);
     });
 }
 

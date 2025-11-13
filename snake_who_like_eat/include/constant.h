@@ -1,8 +1,8 @@
 #ifndef CONSTANT_H
 #define CONSTANT_H
 
-constexpr int TILE_SIZE = 10;
-constexpr int SCALE_UNIT_SIZE = 50;
+constexpr int TILE_SIZE = 20;
+constexpr int SCALE_UNIT_SIZE = 40;
 
 // 设置地图的宽高,宽为SCALE_UNIT_SIZE * WIDTH_RATIO,诸如此类
 constexpr int WIDTH_RATIO = 16;

@@ -16,6 +16,8 @@ public:
 
     bool writeScore();
     bool readScore();
+
+    bool writeAndUpdataScoreList(const std::vector<int>&);
 private:
     std::vector<int> m_score_list;
 };
